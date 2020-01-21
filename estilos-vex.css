@@ -1,0 +1,3415 @@
+/*Estilos menu responsive*/
+
+#responsive-menu {
+    display: none;
+    position: absolute;
+    top: 75px;
+    z-index: 10;
+}
+
+.menu-mobile-vex {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 27px;
+    right: 30px;
+}
+
+.menu-mobile-vex.vex-close {
+    background: url(https://images.netactica.net/ViajesExito/menu.png) no-repeat;
+}
+
+.menu-mobile-vex.vex-open {
+    background: url(https://images.netactica.net/ViajesExito/close-menu.png) no-repeat;
+}
+
+.menu.vertical.mainMenuMobile {
+    background: rgba(150, 16, 13, 1);
+    font-size: 0px;
+}
+
+.top-bar,
+.top-bar ul {
+    background-color: #e6e6e600;
+}
+
+.menu.vertical.mainMenuMobile li {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid #ffffff;
+    width: 50%;
+    text-align: center;
+    /* padding: 25px 0 0 0; */
+    border-right: 1px solid #ffffff;
+}
+
+.menu.vertical.mainMenuMobile li a {
+    color: #fff;
+    font-size: 17px !important;
+    padding: 20px 0 20px 0;
+}
+
+.menu.vertical.mainMenuMobile li:last-child {
+    border-bottom: none;
+}
+
+.menu-mobile .menu-icon.dark {
+    width: 33px;
+}
+
+.menu-mobile .menu-icon.dark::after {
+    height: 3px !important;
+    background: #0a0a0a !important;
+    border-radius: 10px;
+}
+
+.menu-mobile .menu-icon.dark:hover::after {
+    background: #000000;
+    box-shadow: 0 7px 0 #020202, 0 14px 0 #000000;
+}
+
+.menu.vertical.mainMenuMobile li span {
+    display: block;
+    padding: 0 !important;
+    text-decoration: none;
+    width: 60px;
+    height: 30px;
+    margin: 0 auto;
+    float: none;
+}
+
+.menu.vertical.mainMenuMobile li span img {
+    width: 60px;
+    height: 30px;
+}
+
+
+/******************************/
+
+
+/*    HEADER - DISEï¿½O NUEVO   */
+
+
+/******************************/
+
+.vex-container-new-header {
+    border-bottom: 1px solid #f1f1f1;
+    margin: 0 0 0 0;
+    padding: 3px 0 0 0;
+}
+
+.showControlBar .vex-container-new-header {
+    display: block;
+}
+
+.vex-content-header {
+    font-size: 0px;
+}
+
+.vex-header-logo {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 5px 0 0 0;
+    vertical-align: top;
+    width: 13%;
+}
+
+.vex-header-logo a {
+    display: block;
+}
+
+.vex-header-logo a img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.vex-content-menu span#dnn_dnnNAVNew_ctldnnNAVNew:focus,
+.vex-content-menu span {
+    text-decoration: none !important;
+    /*background: none !important;*/
+    /*border: none !important;*/
+    outline: none !important;
+}
+
+.vex-content-menu {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0px 0 0 15px;
+    vertical-align: top;
+    width: 74%;
+}
+
+.vex-content-menu .mainMenuDesktop .root {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    height: auto;
+    padding: 22px 10px 19px 10px;
+}
+
+.vex-content-menu .mainMenuDesktop .root .txt {
+    font-family: "Roboto", sans-serif !important;
+    font-size: 12px!important;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #4e4e4e;
+}
+.vex-content-menu .mainMenuDesktop .feature-item .root  .txt{
+    color: #fff;
+}
+
+.vex-content-menu .mainMenuDesktop .root.sel,
+.vex-content-menu .mainMenuDesktop .root:hover {
+    border-bottom: 2px solid #ee3124;
+}
+
+.vex-content-menu .mainMenuDesktop .root.sel span {
+    color: #2f2f2f !important;
+}
+
+.vex-tools {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 20px 0 15px 0;
+    vertical-align: top;
+    width: 13%
+}
+
+.vex-contacts {
+    padding: 0px 15px 0 0;
+    position: relative;
+}
+
+.vex-reservations {
+    border-left: 1px solid #ccc;
+    padding: 0 0 0 15px;
+}
+
+.vex-contacts,
+.vex-reservations {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#dnn_lineasContacto {
+    position: relative;
+}
+
+.vex-contacts .vex-showContacts {
+    color: #000;
+    cursor: pointer;
+}
+
+.vex-container-contacts {
+    background: #fbfbfb;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    display: none;
+    font-size: 0px;
+    padding: 10px;
+    position: absolute;
+    right: 5px;
+    top: 35px;
+    width: 390px;
+    z-index: 5;
+}
+
+.vex-container-contacts ul {
+    font-size: 0px;
+    margin: 0;
+}
+
+.vex-container-contacts::before {
+    /*content: "?";*/
+    color: #dcdcdc;
+    font-size: 20px;
+    position: absolute;
+    right: 16px;
+    top: -17px;
+}
+
+.vex-contacts i.fa.fa-phone {
+    font-size: 25px;
+}
+
+.vex-container-contacts p {
+    border-bottom: 1px solid #eaeaea;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    padding: 0 0 7px 0;
+    text-align: center;
+}
+
+.vex-container-contacts ul li {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    text-align: center;
+    width: 50%;
+}
+
+.vex-container-contacts ul li span,
+.vex-container-contacts ul li a {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.vex-container-contacts ul li span:first-child {
+    color: #2f2f2f;
+    font-weight: 500;
+}
+
+.vex-container-contacts ul li a:hover,
+.vex-content-menu .mainMenuDesktop .root:hover span {
+    color: #ee3124;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /*.3s ease*/
+}
+
+.vex-tools .vex-reservations a {
+    color: #000;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*Nuevo Menu Mobile*/
+
+.menu.vertical.mainMenuMobile {
+    background: #e0e0e0;
+}
+
+.menu.vertical.mainMenuMobile li {
+    border-bottom: 1px solid #ffffff;
+    border-right: none;
+    text-align: left;
+    width: 100%;
+}
+
+.menu.vertical.mainMenuMobile li span {
+    display: inline-block;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.menu.vertical.mainMenuMobile li a {
+    color: #000;
+    font-size: 14px !important;
+    padding: 15px 10px 7px 10px;
+    font-family: "Roboto", sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.vex-content-menu .mainMenuDesktop a {
+    color: #000 !important;
+}
+
+div#divAirResults .text-secondary {
+    color: #2b2b2b;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+
+/*******************************/
+
+
+/*    ESTILOS NUEVOS 10-04-2018*/
+
+
+/*******************************/
+
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/* Generales */
+
+#divAppliedFilters span.nts-tag {
+    background: none;
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+div#divTitle .large-6.column.text-right.small-text-left a {
+    background: #ee3124;
+    border-radius: 17px;
+    color: #fff;
+    padding: 8px 10px 8px 10px;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 240px;
+    text-align: center;
+}
+
+@media screen and (max-width: 520px) {
+    div#divTitle .large-6.column.text-right.small-text-left a {
+        margin-top: 6px;
+        display: block;
+    }
+}
+
+.pkg-title {
+    color: #ee3124;
+}
+
+.currencyCode,
+.currencyText {
+    color: #2f2f2f;
+}
+
+div#hotelFilter span {
+    color: #444;
+}
+
+.hotelOption .hotelName a,
+.carOption .carModel a {
+    line-height: 0.5rem;
+}
+
+a {
+    color: #2f2f2f;
+    /*    color: red;*/
+}
+
+a:hover,
+a:focus {
+    color: #2f2f2f;
+}
+
+.jpagination .jp-current {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid;
+}
+
+.jpagination .jp-current:hover {
+    background: #fff;
+}
+
+.nts-primary,
+.off-canvas-content {
+    background-color: #f3f3f3;
+}
+
+.callout.secondary {
+    background-color: #f3f3f3;
+    color: #0a0a0a;
+}
+
+#ulNewSearch {
+    background-color: #f9f9f9;
+    border: 1px solid #d7d6d6;
+}
+
+.filterTitle {
+    margin-bottom: 0px;
+}
+
+
+/* Botones */
+
+.button {
+    background-color: #ee3124;
+}
+
+.button:hover {
+    background-color: #2f2f2f;
+}
+
+.button.nts-button.small.expanded {
+    color: #fff;
+}
+
+.totalpackprice {
+    font-weight: 600;
+}
+
+.hotelResultQuoteIcon {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.callout.hotelPriceColumn,
+.callout.airPriceColumn,
+.callout.carPriceColumn {
+    background-color: #ffd700;
+}
+.price-subtext {
+    font-weight: bold;
+    color: #000;
+    font-size: 12px;
+}
+
+
+/* Hotel */
+
+.hotelName a {
+    color: #ee3124;
+}
+
+.hotelName a:hover {
+    color: #2f2f2f;
+}
+
+#divHotelResults>div:hover {
+    border-color: #2f2f2f !important;
+}
+
+.hotelNameDetails,
+.sectionTitle {
+    color: #ee3124;
+    font-weight: normal;
+}
+
+.row.collapse.hotelResult {
+    box-shadow: 0px 1px 3px #888888;
+}
+
+.selectedRoomsInfo {
+    color: #2e2323;
+    font-size: .75rem;
+    margin-bottom: 0;
+}
+
+.hotelDetailsBuyNow {
+    /*background: #ffd700!important;*/
+}
+
+.hotelDetailsBuyNow span {
+    color: #444;
+}
+
+.hotelDetailsBuyNow span.fontXLarge.bold {
+    color: #2f2f2f;
+    font-weight: normal;
+}
+
+.sectionTitle {
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 40em) tr.room td {
+    padding-bottom: 0px;
+}
+
+.hotelDescription {
+    text-align: left;
+}
+
+table.stack td {
+    padding-bottom: 0px;
+}
+
+
+/****************************************/
+
+
+/* Estilos VEX - Resultados de busqueda */
+
+
+/****************************************/
+
+body,
+th,
+td,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a:link,
+a:visited,
+a:hover,
+input {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+div#divResults,
+div#divRightColumn {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nts-primary,
+.off-canvas-content {
+    background-color: rgba(247, 247, 247, 0.38) !important;
+}
+
+
+/* Columna Izquierda */
+
+.filters {
+    color: #2f2f2f !important;
+}
+
+#ulNewSearch {
+    background: #fff !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 81px;
+}
+
+#ulNewSearch input.button.expanded.round.small {
+    background: #ee3124 !important;
+    border-radius: 19px;
+    border: 1px solid #ee3124;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nts-button.alternate {
+    color: #ffffff;
+}
+
+#ulNewSearch input.button.expanded.round.small:hover {
+    background: #ee3124 !important;
+    color: #fff;
+}
+
+.filters .currencyCode,
+.filters .currencyText {
+    color: #2f2f2f !important;
+}
+
+.nts-callout-primary .title {
+    color: #2f2f2f;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.nts-callout-primary input[type=text],
+.textPriceRange {
+    background: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    box-shadow: none;
+    color: #2f2f2f;
+    font-family: 'Roboto', sans-serif;
+}
+
+input#txtHotelContains {
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #2f2f2f;
+}
+
+.input-group .input-group-button .button {
+    background: none !important;
+}
+
+.input-group .input-group-button .button {
+    padding: 0 0 0 10px !important;
+}
+
+.input-group .input-group-button .button i span.fi-magnifying-glass:before {
+    color: #2f2f2f !important;
+    font-size: 23px;
+}
+
+.texpricefilter a i.fi-magnifying-glass:before {
+    color: #2f2f2f !important;
+    font-size: 23px;
+}
+
+select#ddlAdults,
+select#ddlChilds,
+select#ddlInfants,
+select#ddlCabinType,
+select#ddlDepartureTime,
+select#ddlArrivalTime,
+select#ddlRoomsCount,
+select#ddlAdults1,
+select#ddlChilds1,
+select#ddlAdults2,
+select#ddlChilds2,
+select#ddlAdults3,
+select#ddlChilds3,
+select#ddlAdults4,
+select#ddlChilds4,
+select#ddlAdults5,
+select#ddlChilds5,
+select#ddlAge11,
+select#ddlAge12,
+select#ddlAge13,
+select#ddlAge14 {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    color: #2f2f2f;
+    background-image: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.ï¿½nts='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>);
+    background-position: right -1rem center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: 9px 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ulNewSearch label.text-left {
+    line-height: 1.5;
+}
+
+select#ddlAdults {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+select#ddlChilds {
+    border-radius: 0px;
+}
+
+select#ddlInfants {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.callout.secondary.filter {
+    background: #fff !important;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.callout.secondary.filter .filterTitle {
+    color: #2f2f2f;
+    font-weight: 500;
+    font-size: 1.03rem;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.callout.secondary.filter #airFilter .filter-airAirlines .text-right span a,
+.callout.secondary.filter #airFilter .filter-airStops .text-right span a {
+    color: #2f2f2f !important;
+    font-weight: 500;
+}
+
+.callout.secondary.filter .slider-handle {
+    border-radius: 30%;
+}
+
+.slider span.slider-handle:before {
+    content: "+";
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+}
+
+.slider span:nth-child(1):before {
+    content: "-";
+    top: -1px;
+}
+
+.slider span:nth-child(3):before {
+    content: "-";
+}
+
+.callout.secondary.filter a {
+    color: #2f2f2f !important;
+    font-weight: 500;
+}
+
+.callout.secondary.filter .slider {
+    height: 0.3rem;
+    margin-top: 6px;
+}
+
+.callout.secondary.filter .slider-fill {
+    height: 0.3rem;
+}
+
+.callout.secondary.filter .filter-airPriceRanges {
+    margin-bottom: 20px;
+}
+
+.filter-airAirlines .small-8.small-offset-1.column {
+    margin-left: 0px;
+}
+
+.filter-airAirlines .small-9.small-offset-1.column.text-left.ellipsis {
+    margin-left: 0px;
+    float: none;
+}
+
+.callout.secondary.filter .filters input[type=checkbox] {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+.pkg-title {
+    color: #2f2f2f !important;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+#ulNewSearch .column a span {
+    color: #2f2f2f;
+    font-weight: bold;
+}
+
+a#aShowHideAdvanced {
+    color: #2f2f2f !important;
+    font-weight: bold;
+}
+
+
+/* Calendario */
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+    border: 1px solid #F1F1F1;
+    background: rgba(241, 241, 241, 0.5);
+    font-weight: normal;
+    color: #2f2f2f !important;
+    border-radius: 3px;
+    text-align: center;
+}
+
+a.ui-state-default.ui-state-active {
+    background: #ee3124 !important;
+    color: #fff !important;
+    border: 0;
+}
+#ui-datepicker-div .ui-state-active-from-to {
+    background-color: #9c9c9c;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover {
+    background: #ee3124 !important;
+    color: #ffffff!important;
+    font-weight: normal;
+}
+
+#ui-datepicker-div .ui-state-active, #ui-datepicker-div .ui-state-active-from, #ui-datepicker-div .ui-state-active-to{
+    background-color: #bbb0;
+}
+#ui-datepicker-div .ui-state-active a, #ui-datepicker-div .ui-state-active-from a, #ui-datepicker-div .ui-state-active-from span, #ui-datepicker-div .ui-state-active-to a {
+    color: #fff !important;
+    background-color: #ee3124;
+}
+table.ui-datepicker-calendar thead {
+    background: none;
+    border: none;
+}
+
+table.ui-datepicker-calendar thead th {
+    background: none;
+}
+
+
+/* Calendario */
+
+
+/* Columna Izquierda */
+
+
+/* Columna Derecha */
+
+h5.subheader {
+    color: #6c6d6f;
+    font-size: 1.10rem;
+}
+
+div#divSelectedPackage .pkg-title {
+    margin: 10px 0 10px 0;
+    font-size: 1.7rem;
+}
+
+
+/* Columna Derecha - tabla precios */
+
+#divAirMatrix {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+}
+
+.nts-matrixTitle.stopCount a {
+    color: #2f2f2f !important;
+    padding: 6px 0 6px 10px;
+}
+
+.nts-matrixTitle {
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-left: none;
+    border-top: none;
+    height: 40px;
+}
+
+.nts-matrixTitle:first-child {
+    border-top: none;
+}
+
+.nts-matrixTitle:last-child {
+    border-bottom: none;
+}
+
+.divAirMatrixContainer .slick-slide .nts-matrixItem {
+    border-bottom: 1px solid #e0e0e0;
+    border-top: none;
+    height: 40px;
+}
+
+.divAirMatrixContainer .slick-slide .nts-matrixItem:last-child {
+    border-bottom: none;
+}
+
+.divAirMatrixContainer .slick-slide .nts-matrixItem a {
+    padding: 6px 0 6px 0;
+    color: #2f2f2f;
+}
+
+.divAirMatrixContainer .slick-slide .nts-matrixItem a span.ellipsis.has-tip {
+    font-weight: 500;
+}
+
+#divAirMatrix .slick-slide {
+    border-right: 1px solid #e0e0e0;
+}
+
+#divAirMatrix .slick-slide:last-child {
+    border-right: none;
+}
+
+.divAirMatrixContainer {
+    border-right: none;
+}
+
+.divAirMatrixContainer .slick-slide .nts-matrixItem a:hover,
+.nts-matrixTitle a:hover {
+    background-color: #fff;
+    border: solid 1px #2f2f2f;
+}
+
+.points.inMatrix {
+    color: #2f2f2f;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.price-extra.money.price span {
+    color: #2f2f2f !important;
+}
+
+
+/* Columna Derecha - tabla precios */
+
+
+/* Puntos Usados */
+
+#points-usage .callout {
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+#pointSlider .slider-handle {
+    background-color: #2f2f2f !important;
+}
+
+
+/* Puntos usados */
+
+
+/* Resumen productos */
+
+#divSelectedPakageContainer .callout {
+    border: 1px solid #e0e0e0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#divSelectedPakageContainer .callout.cart-price {
+    background: #fff;
+    border: 1px solid rgba(181, 181, 181, 0.5);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-left: none;
+}
+
+#divSelectedPakageContainer .currencyCode,
+#divSelectedPakageContainer .currencyText {
+    color: #2f2f2f !important;
+    font-weight: 500;
+}
+
+#divSelectedPakageContainer a.show-for-medium-up.aQuoteOff.has-tip {
+    display: none !important;
+}
+
+.callout.cart-price a.button {
+    background: #ee3124 !important;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.list-plain span.fi-pencil:before {
+    color: #2f2f2f;
+}
+
+ul#ulSelectedPackage li {
+    border-bottom: 1px solid #D8D8D8;
+}
+
+ul#ulSelectedPackage li:last-child {
+    border: none;
+}
+
+ul#ulSelectedPackage li.liHotelSeparator {
+    border: none;
+}
+
+#divSelectedPackage li.liAirSeparator.heading {
+    border: none;
+}
+
+.list-plain li span,
+.list-plain li span b {
+    color: #2f2f2f;
+    /*font-weight: 500;*/
+}
+
+.list-plain i.fi-arrow-right:before {
+    color: #2f2f2f;
+}
+
+
+/* Resumen productos */
+
+
+/* Paso a Paso flujos */
+
+#divSteps #ulSteps .column {
+    height: 82px !important;
+}
+
+#divSteps .step {
+    font-size: 0.9em;
+}
+
+#ulSteps .includes-item {
+    background: #fff;
+    border: 1px solid #2f2f2f;
+    color: #2f2f2f;
+    border-radius: 8px;
+    padding: 1.3em 0.5em 0.5em;
+}
+
+#ulSteps .includes-item .step {
+    background: none;
+    color: #2f2f2f;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 3px 5px 3px 5px;
+    width: 1.3em;
+}
+
+#ulSteps .includes-item.active {
+    background: #ffffff !important;
+    border-bottom: none;
+    border-radius: 8px;
+    border: 1px solid #ee3124 !important;
+}
+
+#ulSteps .includes-item.active .step {
+    background: none !important;
+    color: #2f2f2f;
+    font-weight: 400;
+}
+
+#ulSteps .includes-item.disabled {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    color: #2f2f2f;
+}
+
+.includes-item.disabled .step {
+    background: none;
+    color: #2f2f2f;
+    opacity: 0.4;
+}
+
+.includes-item div:nth-child(2) img,
+.includes-item a div img {
+    opacity: 0;
+}
+
+
+/*.includes-item.active div:nth-child(2) {
+        background-repeat: no-repeat;
+        background-size: 65px;
+        background-position: center;
+    }*/
+
+
+/* 5 Pasos */
+
+
+/*Icono Avion*/
+
+div#ulSteps.small-up-5 .column:nth-child(1) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-5 .column:nth-child(1) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-plane-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-5 .column:nth-child(1) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-5 .column:nth-child(1) .includes-item.active div:nth-child(2) {
+    background: url(https://images.netactica.net/ViajesExito/new-plane.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/*Icono Hotel*/
+
+div#ulSteps.small-up-5 .column:nth-child(2) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-5 .column:nth-child(2) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-hotel-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-5 .column:nth-child(2) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-5 .column:nth-child(2) .includes-item.active a div:nth-child(3),
+div#ulSteps.small-up-5 .column:nth-child(2) .includes-item.active div:nth-child(2) {
+    background: url(https://images.netactica.net/ViajesExito/new-hotel.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/*Icono Auto*/
+
+div#ulSteps.small-up-5 .column:nth-child(3) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-5 .column:nth-child(3) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-car-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-5 .column:nth-child(3) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-5 .column:nth-child(3) .includes-item.active a div:nth-child(3),
+div#ulSteps.small-up-5 .column:nth-child(3) .includes-item.active div:nth-child(2) {
+    background: url(https://images.netactica.net/ViajesExito/new-car.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/*Icono Actividades*/
+
+div#ulSteps.small-up-5 .column:nth-child(4) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-5 .column:nth-child(4) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-activ-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-5 .column:nth-child(4) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-5 .column:nth-child(4) .includes-item.active a div:nth-child(3),
+div#ulSteps.small-up-5 .column:nth-child(4) .includes-item.active div:nth-child(2) {
+    background: url(https://images.netactica.net/ViajesExito/new-activ.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/*Icono Shopping*/
+
+div#ulSteps.small-up-5 .column:nth-child(5) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-5 .column:nth-child(5) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-shopping-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-5 .column:nth-child(5) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-5 .column:nth-child(5) .includes-item.active a div:nth-child(3),
+div#ulSteps.small-up-5 .column:nth-child(5) .includes-item.active div:nth-child(2) {
+    background: url(https://images.netactica.net/ViajesExito/new-shopping.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/* 5 Pasos */
+
+
+/* 4 Pasos */
+
+
+/*Icono Avion*/
+
+div#ulSteps.small-up-4 .column:nth-child(1) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-4 .column:nth-child(1) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-plane-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-4 .column:nth-child(1) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-4 .column:nth-child(1) .includes-item.active div:nth-child(2) {
+    background: url(https://images.netactica.net/ViajesExito/new-plane.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/*Icono Auto*/
+
+div#ulSteps.small-up-4 .column:nth-child(2) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-4 .column:nth-child(2) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-car-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-4 .column:nth-child(2) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-4 .column:nth-child(2) .includes-item.active a div:nth-child(3),
+div#ulSteps.small-up-4 .column:nth-child(2) .includes-item.active div:nth-child(2) {
+    background: url(https://images.netactica.net/ViajesExito/new-car.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/*Icono Actividades*/
+
+div#ulSteps.small-up-4 .column:nth-child(3) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-4 .column:nth-child(3) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-activ-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-4 .column:nth-child(3) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-4 .column:nth-child(3) .includes-item.active a div:nth-child(3),
+div#ulSteps.small-up-4 .column:nth-child(3) .includes-item.active div:nth-child(2) {
+    background: url(https://images.netactica.net/ViajesExito/new-activ.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/*Icono Shopping*/
+
+div#ulSteps.small-up-4 .column:nth-child(4) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-4 .column:nth-child(4) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-shopping-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-4 .column:nth-child(4) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-4 .column:nth-child(4) .includes-item.active a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-shopping.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/* 4 Pasos */
+
+
+/* 3 Pasos */
+
+
+/*Icono Avion*/
+
+div#ulSteps.small-up-3 .column:nth-child(1) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-3 .column:nth-child(1) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-plane-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-3 .column:nth-child(1) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-3 .column:nth-child(1) .includes-item.active div:nth-child(2) {
+    background: url(https://images.netactica.net/ViajesExito/new-plane.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/*Icono Auto*/
+
+div#ulSteps.small-up-3 .column:nth-child(2) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-3 .column:nth-child(2) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-car-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-3 .column:nth-child(2) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-3 .column:nth-child(2) .includes-item.active a div:nth-child(3),
+div#ulSteps.small-up-3 .column:nth-child(2) .includes-item.active div:nth-child(2) {
+    background: url(https://images.netactica.net/ViajesExito/new-car.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/*Icono Shopping*/
+
+div#ulSteps.small-up-3 .column:nth-child(3) .includes-item.disabled div:nth-child(2),
+div#ulSteps.small-up-3 .column:nth-child(3) .includes-item a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-shopping-disabled.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+    opacity: 0.6;
+}
+
+div#ulSteps.small-up-3 .column:nth-child(3) .includes-item a div:nth-child(3) {
+    opacity: 1;
+}
+
+div#ulSteps.small-up-3 .column:nth-child(3) .includes-item.active a div:nth-child(3) {
+    background: url(https://images.netactica.net/ViajesExito/new-shopping.png);
+    background-repeat: no-repeat;
+    background-size: 54px;
+    background-position: center;
+}
+
+
+/* 3 Pasos */
+
+
+/* Paso a Paso flujos */
+
+
+/* Resultados busqueda - Seleccion vuelos - Columnas izquierda-derecha */
+
+.hotelResult:hover,
+.airOption:hover,
+.divExtra:hover {
+    box-shadow: none;
+}
+
+.callout {
+    color: #2f2f2f;
+}
+
+.airOption {
+    box-shadow: none;
+}
+
+#divResultsInfo span.text-secondary {
+    color: #2f2f2f;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+#divResults div#divSort select {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    color: #2f2f2f;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.airOptionsColumn .row.sector-title {
+    background: #fff;
+    border-bottom: none;
+}
+
+.airOptionInfo .callout.sector .sector-title .column {
+    color: #2f2f2f;
+}
+
+.route-line {
+    background: #848484;
+}
+
+.route-line:after {
+    border-left: 8px solid #848484;
+}
+
+.show-for-medium.date {
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize!important;
+}
+
+.airOptionInfo .city-code {
+    font-weight: 500;
+}
+
+.airOptionInfo .city-name {
+    font-weight: 400;
+}
+
+.row.flight .column.ellipsis span {
+    color: #2f2f2f;
+    font-weight: 500;
+}
+
+.row.flight .column.time div:last-child {
+    color: #505050;
+}
+
+.flight .stops {
+    text-decoration: none;
+    text-underline-position: none;
+}
+
+.row.flight .column.stops a {
+    color: #2f2f2f !important;
+    text-decoration: none;
+    border: none;
+}
+
+.airOptionsColumn .callout.sector .row:nth-child(3) {
+    /*background: #fff !important;*/
+}
+
+.airOptionsColumn {
+    background: #fff;
+    border-radius: 6px;
+}
+
+.flightDetails {
+    background: rgba(247, 247, 247, 0.5);
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+}
+
+.flightDetails .nts-item-subtitle,
+.callout.ghost.nts-item-subtitle {
+    background: none;
+}
+
+.airOptionsColumn .callout.sector .row:nth-child(3),
+.airOptionsColumn .callout.sector .row:nth-child(5) {
+    background: none!important;
+}
+
+.airOptionsColumn .callout.sector .row.flight .column.small-1.text-right a {
+    color: #2f2f2f !important;
+}
+
+.big-city-code span {
+    background: rgba(247, 247, 247, 0.5);
+}
+
+.flightDetails .route-info .text-small .text-secondary {
+    color: #2f2f2f;
+    text-transform: uppercase;
+}
+
+.route-info .flight-path {
+    background: #848484;
+    width: 70%;
+}
+
+.route-info .time {
+    color: #2f2f2f;
+}
+
+.route-info p {
+    border-right: 1px solid #bfbfbf;
+    color: #2f2f2f;
+    display: inline-block;
+    padding: 3px 10px 3px 10px;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+.route-info p:last-child {
+    border: none;
+}
+
+.callout.hotelPriceColumn,
+.callout.airPriceColumn,
+.callout.carPriceColumn {
+    background-color: #fff !important;
+    border-left: 1px solid #ccc;
+}
+
+.callout.hotelPriceColumn .button,
+.callout.airPriceColumn .button,
+.callout.carPriceColumn .button {
+    background-color: #ee3124 !important;
+    border-radius: 15px;
+    border: 1px solid #ee3124;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.callout.hotelPriceColumn .text-right,
+.callout.carPriceColumn .text-right,
+.callout.hotelPriceColumn .column,
+.callout.carPriceColumn .column {
+    text-align: center;
+}
+
+.callout.airPriceColumn p {
+    color: #676767;
+}
+
+.airPriceColumn .reprice .points {
+    color: #2f2f2f;
+    font-size: 23px;
+}
+
+.airPriceColumn .reprice .price-extra.money span {
+    color: #676767 !important;
+}
+
+.airPriceColumn .reprice .price-extra.money {
+    font-weight: 100;
+}
+
+.callout.airPriceColumn a:last-child {
+    color: #2f2f2f !important;
+    font-weight: 500;
+}
+
+.airPriceColumn a.show-for-medium-up.aQuoteOff.has-tip {
+    /*display: none !important;*/
+}
+
+.airPriceColumn .reprice p.totalpackprice.price-extra span {
+    color: #2f2f2f !important;
+    font-weight: 800;
+}
+
+.callout.airPriceColumn p {
+    color: #2f2f2f;
+}
+
+.airPriceColumn .reprice {
+    line-height: 1.2;
+    margin-top: .5rem;
+    padding: 0 0px;
+}
+
+.callout.airPriceColumn a:last-child {
+    color: #2f2f2f !important;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: #848484;
+}
+
+.airOptionsColumn .row.sector-title {
+    background: rgba(224, 224, 224, 0.29);
+}
+
+.nts-card-rounded .airOptionsColumn .sector {
+    border-radius: 6px !important;
+}
+
+.callout.ghost.nts-item-subtitle.conex {
+    background: rgba(47, 47, 47, 0.08) !important;
+    border-radius: 0px;
+}
+
+.callout.ghost.nts-item-subtitle.conex span {
+    color: #2f2f2f;
+}
+
+.overlay-between-flights img {
+    /*display: none;*/
+    opacity: 1 !important;
+}
+
+img.sector-icon {
+    opacity: 0;
+}
+
+.airOptionsColumn .sector:first-child .sector-title .medium-3 {
+    background: url(https://images.netactica.net/ViajesExito/pco/vuelo-salida.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 11px 1px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.airOptionsColumn .sector:nth-child(2) .sector-title .medium-3 {
+    background: url(https://images.netactica.net/ViajesExito/pco/vuelo-llegada.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 11px 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.flight:hover {
+    background-color: #f9f9f9;
+}
+
+
+/* Resultados busqueda - Seleccion vuelos - Columnas izquierda-derecha */
+
+
+/* Resultados busqueda - Seleccion Hotel */
+
+div#divRoomTypes {
+    color: #2f2f2f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+div#divRoomTypes span.text-capitalize.fontNormal b {
+    font-weight: 400;
+}
+
+.row.collapse.hotelResult {
+    box-shadow: none;
+    border: 1px solid #e0e0e0;
+    ;
+}
+
+#divHotelResults .callout.hotelOption {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.callout.hotelPriceColumn {
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: 1px solid #e0e0e0;
+    padding: 0.5rem;
+}
+
+.callout.hotelPriceColumn .totalpackpricetext {
+    font-size: 0.8em;
+}
+
+.hotelOption span.hotelName a {
+    color: #2f2f2f !important;
+    font-size: 1rem;
+}
+
+.hotelOption .slick-prev::before,
+.hotelOption .slick-next::before {
+    background: none;
+    opacity: 1;
+}
+
+.hotelOption span.fontNormal.secondary a {
+    color: #2f2f2f !important;
+}
+
+.reprice .totalpackprice span.currencyCode,
+.reprice .totalpackprice span.currencyText {
+    color: #2f2f2f !important;
+    font-weight: normal;
+}
+
+.hotelContent .slick-slide img {
+    border-radius: 6px;
+}
+
+span.hotelNameDetails {
+    color: #2f2f2f !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.callout.nts-card span.hotelNameDetails {
+    font-size: 1.3rem;
+}
+
+.callout.nts-card span.hotelNameDetails+span {
+    margin: 0 0 0 5px !important;
+}
+
+ul.menu.align-right li a {
+    color: #2f2f2f !important;
+}
+
+ul.menu.align-right li:before {
+    display: none;
+}
+
+#divRoomTypes span.sectionTitle {
+    color: #2f2f2f!important;
+    font-weight: 300;
+}
+
+.hotelImageFixed {
+    border-radius: 6px;
+}
+
+.jpagination .jp-current {
+    background: #fff !important;
+    border: 1px solid #2f2f2f;
+    color: #2f2f2f !important;
+}
+
+.hotelDetailsBuyNow {
+    background: #ffffff important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    background: none;
+    opacity: 1;
+}
+
+.hotelDetailsBuyNow.callout.no-border.text-center {
+    background: #fff !important;
+}
+
+.hotelDetailsRightSide {
+    border-left: 1px solid #D8D8D8;
+    padding: 0 10px 0 25px !important;
+}
+
+.nts-card {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+ul.menu.align-right {
+    padding-top: 1.5rem;
+}
+
+.hotelDetailsBuyNow .currencyCode,
+.hotelDetailsBuyNow .currencyText {
+    color: #2f2f2f !important;
+}
+
+.button {
+    background-color: #2f2f2f !important;
+    border-radius: 15px;
+}
+
+.hotelNameDetails,
+.sectionTitle {
+    color: #2f2f2f !important;
+    font-weight: normal;
+}
+
+#divRoomTypes table.open thead {
+    background: none;
+    border-bottom: 1px solid #000;
+}
+
+#divRoomTypes table thead th {
+    background: none;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.hotelPrice,
+.extraPrice {
+    color: #2f2f2f !important;
+    font-weight: normal;
+}
+
+div#divRoomTypes table.stack td {
+    padding: 10px 0 10px 0;
+}
+
+div#divRoomTypes .button {
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    width: 85%;
+}
+
+span.sectionTitle {
+    font-family: 'Roboto', sans-serif;
+}
+
+div#divSelectedPackage h5.subheader {
+    color: #656565;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.hotelResultQuoteIcon {
+    /*display: none;*/
+}
+
+.filter-hotelBoards {
+    /*display: none !important;*/
+}
+
+
+/* Resultados busqueda - Seleccion Hotel */
+
+
+/* Autos */
+
+div#carFilter .filterTitle {
+    line-height: normal;
+}
+
+select#pickUpTime,
+select#dropOffTime {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    color: #2f2f2f;
+    background-image: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.ï¿½nts='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>);
+    background-position: right -1rem center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: 9px 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div#divTitle.divSelectCar {
+    margin: 0;
+}
+
+div#divTitle.divSelectCar>div {
+    border: none !important;
+    padding: 0.3rem 0 !important;
+}
+
+div#divCarResults .carResult {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.divCarHeading {
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 1rem;
+    padding: .6rem 0 .6rem 0.6rem;
+}
+
+.divCarHeading .show-for-large .fontNormal {
+    color: #2f2f2f;
+    font-size: 1rem;
+}
+
+.carOption {
+    border-radius: 8px;
+}
+
+.vehicleOption {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 10px 15px 10px 15px;
+}
+
+.vehicleOption:nth-child(2n) {
+    background: rgba(234, 234, 234, 0.07);
+}
+
+.vehicleOption .vehicleModel {
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #2f2f2f;
+    font-size: 13px;
+}
+
+.large-3.column.text-right.reprice.vehicleAmount {
+    margin-top: 0px;
+}
+
+.vehicleOption .vehicleCharacteristics .divCarCharacteristic {
+    margin: 0 10px 0 0;
+}
+
+.nts-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carDetailsBuyNow {
+    background: rgba(243, 243, 243, 0.2);
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carDetailsBuyNow .currencyCode,
+.carDetailsBuyNow .currencyCode~.currencyText {
+    color: #2f2f2f;
+}
+
+.divCarPickUpDropOffContainer .divCarHeading {
+    margin-bottom: 0px;
+    padding: .6rem 0 0 0.6rem;
+    border-bottom: 1px solid #2f2f2f;
+}
+
+.divCarPickUpDropOffContainer .divCarHeading span {
+    color: #2f2f2f;
+    font-size: 1rem;
+}
+
+.divCarContent {
+    font-size: .9rem;
+}
+
+.divCarPickUpDropOffContainer .divCarContent i {
+    color: #2f2f2f;
+    font-size: 1rem;
+}
+
+.divCarCharacteristic {
+    border: 1px solid #e0e0e0 !important;
+}
+
+.divCarCharacteristic i,
+.divCarCharacteristic span {
+    color: #545454;
+}
+
+.divCarRatesContainer {
+    font-family: 'Roboto', sans-serif;
+    border-top: 1px solid #e0e0e0;
+    padding: 30px 0 0 0;
+}
+
+.divCarRateOptionsHeader {
+    background-color: rgba(250, 250, 250, 0.7);
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.divCarRateOptionsHeader .fontNormal {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #2f2f2f;
+}
+
+.divCarRateOptionsHeader i[class^=flaticon] {
+    color: #545454;
+}
+
+.divCarRateOptions .carRateDetail .carRateDescription {
+    display: block;
+    font-size: 14px;
+    line-height: 18px !important;
+}
+
+.carRateDetail i {
+    color: #2f2f2f;
+    font-size: 1.5rem;
+}
+
+.divPayNowHeader {
+    background: #4c4c4c;
+    vertical-align: middle;
+    display: table-cell;
+    width: inherit;
+    color: #fff;
+    border: 1px solid #4c4c4c;
+    border-bottom: none;
+}
+
+.divPayNowHeader:after {
+    border-top-color: #4c4c4c;
+}
+
+.divPayNowHeader:after,
+.divPayAtDestinationHeader:after {
+    content: '';
+    position: absolute;
+    top: 44px;
+    left: -1px;
+    border: 71px solid transparent;
+    border-top: 10px solid;
+    margin-top: 0;
+}
+
+.carRatePayNow {
+    border: 1px solid #2f2f2f;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    /* margin: .5rem; */
+    text-align: center;
+    color: #2f2f2f;
+}
+
+.carRatePayNow.selected {
+    background-color: #fff;
+}
+
+.carRatePayNow.selected .currencyText {
+    color: #2f2f2f;
+    font-weight: normal;
+}
+
+.divPayAtDestinationHeader {
+    background-color: #4c4c4c;
+}
+
+.divPayAtDestinationHeader:after {
+    border-top-color: #4c4c4c;
+}
+
+div#divRowIncludes .text-left .fontSmall {
+    color: #0356DA;
+}
+
+span#lblPayTaxesAtDestination {
+    color: #0356DA !important;
+}
+
+
+/* Autos */
+
+
+/* Actividades */
+
+input#txtExtraName {
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #2f2f2f;
+    font-family: 'Roboto', sans-serif;
+}
+
+#divExtraFilters .ui-state-default,
+#divExtraFilters .ui-widget-content .ui-state-default {
+    border: none;
+    background: none;
+    color: #2f2f2f;
+    font-weight: normal;
+    font-size: 11px;
+}
+.ui-datepicker-header a:hover span {
+    background-color: #4440 !important;
+}
+
+#divExtraFilters a.ui-state-default {
+    border: 1px solid #2f2f2f !important;
+    color: #2f2f2f !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+#divExtraFilters .filters .ui-datepicker {
+    border-radius: 6px;
+    border: 1px solid #b9b9b9;
+}
+
+#divExtraFilters .ui-state-disabled,
+.ui-widget-content .ui-state-disabled {
+    font-family: 'Roboto', sans-serif;
+    opacity: .8;
+}
+
+#divExtraFilters .ui-datepicker .ui-datepicker-header {
+    color: #2f2f2f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+#divExtraFilters .ui-datepicker th {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#divExtraFilters .ui-datepicker-calendar tbody {
+    border: none;
+}
+
+#divExtraFilters .ui-datepicker .ui-datepicker-title {
+    font-size: 13px;
+}
+
+#divExtraFilters table.ui-datepicker-calendar thead {
+    border: none;
+    border-bottom: 1px solid #ececec;
+}
+
+.extraResult .npt-slider {
+    border: none;
+}
+
+.extraResult .callout.nts-card-details {
+    border: none;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.extraResult .nts-hotel-card {
+    border: 1px solid #e0e0e0;
+    box-shadow: none;
+    border-radius: 6px;
+}
+
+.extraResult .nts-hotel-card .hotel-name {
+    color: #2f2f2f;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.extraResult .text-right {
+    text-align: center;
+}
+
+.extraResult .column.small-4.medium-12 {
+    padding-top: 0;
+}
+
+.extraResult .column.small-8.medium-12 {
+    padding-top: 0px;
+}
+
+.callout.ExtraPriceSummaryColumn {
+    background-color: #fff;
+}
+
+.callout.extraFareText {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 1px solid #e0e0e0;
+    box-shadow: none;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: none;
+}
+
+.callout.ExtraPriceSummaryColumn {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 0;
+    border-radius: 8px;
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+div.divExtraProducts .column .row.collapse .column.medium-8.large-9 div img {
+    border-top-left-radius: 8px;
+}
+
+
+/* Actividades */
+
+
+/* Resultados busqueda - Formaularios - Pasajeros */
+/* #divPassengers > .callout.passenger:nth-child(odd) {
+    display: none;
+} */
+
+
+#divPassengers > .callout.passenger:nth-child(even) {
+    display: block;
+}
+
+/*  acumulacion de millas  */
+.callout.passenger {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.callout.information.divCancellationPolicies {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.passenger [type='text'],
+.passenger [type='password'],
+.passenger [type='email'],
+.passenger [type='number'],
+.passenger [type='tel'] {
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    box-shadow: none;
+    border-radius: 6px;
+    color: #2f2f2f;
+    font-family: 'Roboto', sans-serif;
+}
+
+.passenger .multilineArea {
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    box-shadow: none;
+    border-radius: 7px;
+    color: #2f2f2f;
+}
+
+.passenger select {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    color: #2f2f2f;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.ï¿½nts='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
+    background-position: right -1rem center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: 9px 6px;
+}
+
+.passenger a {
+    color: #2f2f2f !important;
+}
+
+.callout.information.divCheckinInstructions,
+#TermsAndConditions {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input#submitButtonId {
+    background-color: #2f2f2f !important;
+}
+
+input#submitButtonId:hover {
+    /*background-color: #d20d64 !important;*/
+}
+
+.fontXXXLarge {
+    color: #2f2f2f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.7rem;
+}
+
+#divSummary .callout.packagePrice {
+    background: #ffffff !important;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    color: #2f2f2f;
+    margin: 0 0 20px 0;
+    font-family: 'Roboto', sans-serif
+}
+
+#divSummary .callout.packagePrice .packagePriceTitle {
+    text-align: center;
+}
+
+#divSummary .callout.packagePrice .packagePriceTitle span {
+    color: #2f2f2f;
+}
+
+#divSummary .packagePriceTitleContainer {
+    border-bottom: 1px solid #bdbdbd;
+}
+
+#divSummary .packagePrice .currencyCode,
+#divSummary .packagePrice .currencyText {
+    color: #2f2f2f !important;
+}
+
+span.hotelName a,
+.hotelNameDetails,
+span.nts-side-bar-title,
+.summaryTitle,
+.packagePriceTitle,
+.sectionTitle {
+    color: #2f2f2f!important;
+}
+
+div#divTermsAndConditionsText a {
+    font-weight: bold;
+    color: #000;
+}
+
+#divSummary .nts-totalizer {
+    border-top: 1px solid #fff;
+    font-weight: 500;
+}
+
+.summary a.fontSmall {
+    color: #2f2f2f !important;
+}
+
+#packSummary .summary {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#packSummary .summary .text-secondary {
+    color: #2f2f2f;
+}
+
+#packSummary .sector-title {
+    border: none;
+}
+
+.summary .big-city-code span {
+    background: #fff;
+}
+
+.passenger .heading span.fontLarge.text-secondary,
+#divPassengers h3 {
+    color: #2f2f2f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+div#divFareText {
+    font-family: 'Roboto', sans-serif;
+}
+
+.side-hotel-image-div img {
+    border-radius: 6px;
+}
+
+
+/* Resultados busqueda - Formularios - Pasajeros */
+
+
+/* Forma de pago */
+
+div#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_plPaymentUpdatePanel {
+    background: #f7f7f7;
+}
+
+div#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_pnlReservationInfo .pricing-table {
+    border: none;
+    margin-left: 0;
+    margin-bottom: 1.25rem;
+}
+
+div#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_pnlReservationInfo .pricing-table .title {
+    background: #fff !important;
+    border-radius: 10px;
+    margin: 0 0 15px 0;
+}
+
+
+/* Forma de pago */
+
+
+/*ACTIVIDADES*/
+
+.nts-button.alternate:hover,
+.nts-button.alternate:focus {
+    color: #ffffff!important;
+}
+
+
+/* CIRCUITOS */
+
+.callout.extraPriceColumn {
+    background: #fff;
+    border-left: 1px solid #dadada !important;
+}
+
+
+/* Mobile */
+
+.off-canvas {
+    background: rgba(230, 230, 230, 0.33);
+}
+
+.position-left.is-transition-push::after {
+    box-shadow: none;
+    border-right: 2px solid #e0e0e0;
+}
+
+@media screen and (max-width:639px) {
+    /*Paso a paso */
+    div#ulSteps.small-up-5 .column:nth-child(1) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(1) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-5 .column:nth-child(1) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(2) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(2) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-5 .column:nth-child(2) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-5 .column:nth-child(2) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(3) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(3) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-5 .column:nth-child(3) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-5 .column:nth-child(3) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(4) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(4) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-5 .column:nth-child(4) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-5 .column:nth-child(4) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(5) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(5) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-5 .column:nth-child(5) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-5 .column:nth-child(5) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-4 .column:nth-child(1) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-4 .column:nth-child(1) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-4 .column:nth-child(1) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-4 .column:nth-child(2) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-4 .column:nth-child(2) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-4 .column:nth-child(2) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-4 .column:nth-child(2) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-4 .column:nth-child(3) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-4 .column:nth-child(3) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-4 .column:nth-child(3) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-4 .column:nth-child(3) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-4 .column:nth-child(4) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-4 .column:nth-child(4) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-4 .column:nth-child(4) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-4 .column:nth-child(4) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-4 .column:nth-child(5) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-4 .column:nth-child(5) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-4 .column:nth-child(5) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-4 .column:nth-child(5) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-3 .column:nth-child(1) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-3 .column:nth-child(1) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-3 .column:nth-child(1) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-3 .column:nth-child(2) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-3 .column:nth-child(2) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-3 .column:nth-child(2) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-3 .column:nth-child(2) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-3 .column:nth-child(3) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-3 .column:nth-child(3) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-3 .column:nth-child(3) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-3 .column:nth-child(3) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-3 .column:nth-child(4) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-3 .column:nth-child(4) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-3 .column:nth-child(4) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-3 .column:nth-child(4) .includes-item.active div:nth-child(2),
+    div#ulSteps.small-up-3 .column:nth-child(5) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-3 .column:nth-child(5) .includes-item a div:nth-child(3),
+    div#ulSteps.small-up-3 .column:nth-child(5) .includes-item.active a div:nth-child(3),
+    div#ulSteps.small-up-3 .column:nth-child(5) .includes-item.active div:nth-child(2) {
+        background-size: 38px;
+    }
+    /*Fin de Paso a paso*/
+    /*Iconos Busqueda*/
+    .callout.airPriceColumn {
+        background-color: rgba(224, 224, 224, 0.29) !important;
+        border-left: none;
+    }
+    #divSteps #ulSteps .column {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    div#ulSteps.small-up-5 .column:nth-child(1) .includes-item.active div:nth-child(2) {
+        background-size: 38px;
+    }
+    div#ulSteps.small-up-5 .column:nth-child(2) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(2) .includes-item a div:nth-child(3) {
+        background-size: 47px;
+    }
+    div#ulSteps.small-up-5 .column:nth-child(3) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(3) .includes-item a div:nth-child(3) {
+        background-size: 47px;
+    }
+    div#ulSteps.small-up-5 .column:nth-child(4) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(4) .includes-item a div:nth-child(3) {
+        background-size: 44px;
+    }
+    div#ulSteps.small-up-5 .column:nth-child(5) .includes-item.disabled div:nth-child(2),
+    div#ulSteps.small-up-5 .column:nth-child(5) .includes-item a div:nth-child(3) {
+        background-size: 46px;
+    }
+    .flightDetails {
+        background: #fff;
+        border: none;
+    }
+    .route-info .flight-path {
+        width: 52%;
+    }
+    .big-city-code span {
+        background: #fff;
+    }
+    .route-info p {
+        font-size: 12px;
+    }
+    #divSelectedPakageContainer .callout.cart-price {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+        border-left: 1px solid rgba(181, 181, 181, 0.5);
+    }
+    #divSelectedPakageContainer .callout {
+        border-bottom-left-radius: 0px;
+    }
+    .small-compact .callout.nts-card-details {
+        padding: .5rem;
+        text-align: left;
+    }
+}
+
+
+/* Mobile */
+
+
+/*Soporte Chat Piloto*/
+
+.btn-soporte-piloto {
+    background: url(https://www.viajesexito.com/Portals/1047/Images/chat-icon-piloto.png) no-repeat!important;
+    display: inline-block;
+    font-size: 0px;
+    height: 132px!important;
+    width: 195px!important;
+    position: fixed;
+    bottom: 71px;
+    left: 11px;
+    z-index: 9;
+}
+
+@media screen and (max-width:842px) {
+    .btn-soporte-piloto {
+        background: url(https://www.viajesexito.com/Portals/1047/Images/chat-icon-piloto.png) no-repeat!important;
+        left: 20px;
+    }
+}
+
+.btn-soporte-piloto a {
+    color: #fff0!important;
+}
+
+
+/*---------------------------------------------------------
+Inicio - Cotizar - /es-ES/Air/
+Fecha Modificacion: 19-06-2018 - 010:49 Am;
+---------------------------------------------------------*/
+
+#ulSteps {
+    display: none;
+}
+
+#_x33__9_ {
+    display: none;
+}
+
+.baggage .baggage-large {
+    fill: #808080;
+}
+
+.baggage span {
+    background: #4caf50;
+}
+
+.baggage-zero {
+    background: #aaabaa!important;
+}
+
+
+/*---------------------------------------------------------
+Inicio - Reservation
+Fecha Modificacion: 20-06-2018 - 11:49 Am;
+---------------------------------------------------------*/
+
+label[for='chkTermsAndConditions'] {
+    font-size: inherit;
+}
+
+label[for='chkTermsAndConditions'] a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+/*---------------------------------------------------------
+Inicio - Cotizar
+Fecha Modificacion: 20-06-2018 - 11:49 Am;
+---------------------------------------------------------*/
+
+div#divQuotePopUpContainer div.small-6.column:first-child div:nth-child(2) a {
+    background-color: #ee3124;
+    padding: 6px 12px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+
+/*    .wp img {
+        width: 35%!important;
+        margin: 0 auto;
+        display: block;
+    }
+
+*/
+
+
+/*---------------------------------------------------------
+Politicas
+Fecha Modificacion: 06-07-2018 - 11:49 Am;
+---------------------------------------------------------*/
+
+span#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_shopperPaymentInfoControl_lblDownloadFromHere {
+    font-size: 13px;
+}
+
+span#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_shopperPaymentInfoControl_lblDownloadFromHere a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/*---------------------------------------------------------
+EVENTOS
+Fecha Modificacion: 20-06-2018 - 11:49 Am;
+---------------------------------------------------------*/
+
+.vex-content-menu .mainMenuDesktop .root.sel,
+.vex-content-menu .mainMenuDesktop .root:hover {
+    border-bottom: 2px solid #ee3124;
+}
+
+.feature-item .mi span {
+    background-color: #ee3124;
+    color: #fff;
+    padding: 0px 12px!important;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.feature-item span:hover span {
+    color: #fff!important;
+}
+
+.feature-item .root:hover span {
+    color: #fff!important;
+}
+
+@media screen and (max-width: 620px) {
+    .vex-content-header {
+        display: none
+    }
+}
+
+#RightColumn .divAmount {
+    background: #eeeeee none repeat scroll 0 0;
+}
+
+#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_pnlDC .panel {
+    display: none;
+}
+
+.slider-handle {
+    background: #ee3124;
+}
+
+
+/*PUSH RIGHT*/
+
+
+/*PUSH RIGHT*/
+
+.push {
+    position: fixed;
+    right: -247px;
+    z-index: 1;
+    top: 224px;
+    box-shadow: -4px 2px 5px 0px #00000052;
+    -webkit-transition: right 2s;
+    transition: right 2s;
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    font-family: roboto;
+}
+
+.push-header {
+-webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+    padding-left: 9px;
+    background: #ee3124;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    letter-spacing: 0.02em;
+    font-size: 15px;
+    text-align: center;
+}
+
+.push-mensaje {
+    background: #efefef;
+}
+
+.push-mensaje {
+    display: flex;
+    flex-direction: column;
+}
+
+.push-mensaje a {
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #fff!important;
+}
+
+.bg-tarjeta-exito {
+    background-color: #e8ce07;
+}
+
+.bg-tarjeta-credito {
+    background-color: #008ce4;
+}
+
+.bg-pse {
+    background-color: #005aab;
+}
+
+.push-mensaje a img {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 4px;
+    margin-left: 7px;
+    margin-right: 8px;
+}
+
+.push-mensaje a:hover {
+    background-color: #ffffffc7;
+    color: #000!important;
+}
+
+.push-mensaje a:hover img {
+    width: 15%;
+}
+
+.push:hover {
+    right: 0;
+    -webkit-transition: right 2s;
+    transition: right 2s;
+}
+
+@media screen and (max-width: 961px) {
+    .push {
+        display: none;
+    }
+}
+
+
+/*PUSH RIGHT*/
+
+
+
+/*---------------------------------------------------------------------------
+CALENDAR SHOPPING
+---------------------------------------------------------------------------*/
+.flexDateMatrix .grid-item.active, .flexDateMatrix .key-ref.active {
+    background: #dadada;
+    border: 1px solid #00000038;
+}
+.flexDateMatrix .grid-item.highlight {
+    border: 1px solid #222222ad;
+}
+#airMatrixtabs .tabs-title > a {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    border-radius: 7px 7px 0 0;
+    margin-right: 5px;
+    color: #0a0a0a;
+}
+.flexDateMatrix .grid-item{
+	height: 2.6rem;
+	border: 1px solid #c1c1c140;
+}
+.flexDateMatrix .panel-1 .grid-item, .grid-item:first-child{
+	background: #f7f7f7;
+}
+.flexDateMatrix .grid-item:first-child {
+    height: 3rem;
+    background: #f7f7f7;
+}
+
+/*NUEVO MENU EN MOBILE*/
+.title-mobile-container {
+    text-align: center;
+    background-color: #ccc;
+    border-bottom: 1px solid #ee3124;
+}
+span#labelTitle {
+    color: #000;
+}
+@media (max-width: 767px){
+.divTitleDatePicker {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #ccc;
+    left: 0;
+    border-bottom: 1px solid #ee3124;
+}
+.divTitleDatePicker h2 {
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: normal;
+    text-align: center;
+}
+.pop-up-title {
+    background-color: #ccc;
+    border-bottom: 2px solid #ee3124;
+    position: relative;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.pop-up-title h2 {
+    margin-bottom: 0;
+    color: #000;
+}
+.ui-datepicker-group-first .ui-state-active-from:after {
+    top: 10px;
+    bottom: 0px;
+    background-color: #ee3124;
+    right: -6px;
+    transform: rotate(41deg);
+    height: 24px;
+    width: 18px;
+    content: "";
+    position: absolute;
+    z-index: 1;
+}
+#ui-datepicker-div .ui-state-active-to a:before {
+    top: 6px;
+    bottom: 0px;
+    background-color: #ee3124;
+    left: -6px;
+    transform: rotate(41deg);
+    height: 28px;
+    width: 22px;
+    content: "";
+    position: absolute;
+    z-index: 0;
+}
+
+.ui-datepicker-group-first .ui-state-active-from, #ui-datepicker-div .ui-state-active-to{
+    position: relative;
+}
+
+
+}
+#ui-datepicker-div .ui-state-active-to a {
+    background-color: #ee3124;
+}
+.childrens-age-control select {
+    border-radius: 10px;
+}
+.input-group-button {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    border: 1px solid #ccc0;
+    vertical-align: middle;
+}
+.input-number-group .input-number-decrement, .input-number-group .input-number-increment {
+    display: inline-block;
+    width: 40px;
+    background: #ee3124;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.room-add-control a {
+    color: #ee3124;
+    border: 1px solid #ee3124;
+    padding: 2px 5px;
+    border-radius: 8px;
+}
+.btn-rooms-pax-links {
+    color: #ee3124;
+    border: 1px solid #ee3124;
+    border-radius: 5px;
+    padding: 1px 4px;
+}
+.pop-up-control-container .room-number-title-alt h4, .pop-up-control-container .room-number-title h4 {
+    font-size: 16px;
+    color: #ee3124;
+}
+a.ui-datepicker-next.ui-corner-all.ui-state-hover {
+    background: #0000!important;
+}
+a.ui-datepicker-prev.ui-corner-all.ui-state-hover {
+    background: #ee312400 !important;
+}
+div#liAdvanced select option:hover, div#liAdvanced select option:active, div#liAdvanced select option:focus {
+    background: #ee3124;
+}
+p.selectedRoomsInfo.small.text-justify.secondary {
+    color: #309635;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 10px;
+/*    background-color: #eef1df;
+    border: 1px solid #8ec38e;
+    border-radius: 10px;*/
+    padding: 7px;
+}
+.slick-prev:before, .slick-next:before{
+        color: #000;
+}
+.spinner > div{
+  background-color: #636363;  
+}
+.carDetailsBuyNowLoading{
+    background-color: #ee3124;
+    border-radius: 9px;
+}
+.carRatePayAtDestination.selected {
+    background-color: #ee3124;
+}
+.carRatePayAtDestination {
+    border: 1px solid #4c4c4c;
+}
+.carRatePayNow .currencyText, .carRatePayNow .points {
+    color: #4c4c4c;
+}
+.carRatePayAtDestination .currencyText{
+    color: #2f2f2f;
+}
+.divAirMatrixContainer .slick-arrow {
+    visibility: visible;
+}
+.slick-next {
+    right: .0rem;
+}
+.slick-prev {
+    left: .1rem;
+}
+
+/*Mensaje de Advertencia*/
+.warningMessage dt {
+    color: #474747;
+    font-size: 13px;
+    font-weight: 400;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.warningMessage .fi-alert{
+    font-size: 4em!important;
+}
+.hotelThumb[src^="/Images/hotel-image-placeholder.jpg"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(https://images.netactica.net/ViajesExito/hotel-image-placeholder-v3.jpg) no-repeat;
+    padding-left: 100%;
+    box-shadow: inset -2px 0px 0px 0px #0000003b;
+}
+.hotelImageFixed.slick-lazyload-error[src^="/Images/hotel-image-placeholder.jpg"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(https://images.netactica.net/ViajesExito/placeholder-652x325.jpg) no-repeat;
+    padding-left: 100%;
+    background-position: center;    
+    -moz-background-position: center;
+    -webkit-background-position: center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+}
+.slick-lazyload-error[src^="/Images/hotel-image-placeholder.jpg"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(https://images.netactica.net/ViajesExito/hotel-image-placeholder-v3.jpg) no-repeat;
+    padding-left: 100%;
+    background-position: -3px;
+    background-size: 53px;
+}
+.table-header .cell {
+    text-align: left;
+}
+.earn-points{
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+    font-size: 12px;
+}
+
+
+/*UPSALLE*/
+.upsell .callout.packagePrice {
+    border: none;
+    padding: 0;
+    margin-bottom: 1rem;
+    background-color: #0000!important;
+}
+
+.upsell .price-grid-categories > li {
+    padding: .5rem;
+    border-bottom: 1px solid #eee;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: #565656;
+}
+.upsell .price-grid-categories > li i {
+    display: none;
+}
+.upsell .cat-subtitle {
+    color: #aaa;
+    font-weight: 400;
+    padding: 0 7px;
+    text-transform: lowercase;
+    font-size: 11px;
+}
+.upsell .column-block:nth-child(4) .price-grid > li.title, .upsell .column-block:nth-child(4) .price-grid .button, .upsell .tabs-title:nth-child(3) a, .upsell .tabs-panel:nth-child(3) a.button {
+    background-color: #3e3d3d;
+    color: white;
+}
+.upsell .column-block:nth-child(4) .price-grid > li.title, .upsell .tabs-panel:nth-child(3) .price-grid {
+    border-top: 3px solid #3e3d3d;
+}
+.upsell .column-block:nth-child(3) .price-grid > li.title, .upsell .column-block:nth-child(3) .price-grid .button, .upsell .tabs-title:nth-child(2) a, .upsell .tabs-panel:nth-child(2) a.button {
+    background-color: #717171;
+    color: white;
+}
+.upsell .column-block:nth-child(3) .price-grid > li.title, .upsell .tabs-panel:nth-child(2) .price-grid{
+    border-top: 3px solid #ee3124;
+}
+.upsell .column-block .price-grid > li.title, .upsell .tabs-panel .price-grid {
+    border-top: 3px solid #ee3124;
+}
+.upsell .column-block:nth-child(2) .price-grid > li.title, .upsell .column-block:nth-child(2) .price-grid .button, .upsell .tabs-title:nth-child(1) a {
+    background-color: #9a9a9a;
+    color: white;
+}
+.upsell .column-block:nth-child(3) .price-grid > li.title{
+    background-color: #9a9a9a;
+}
+.upsell .column-block .price-grid > li.title, .upsell .tabs-panel:nth-child(3) .price-grid {
+    border-top: 3px solid #9a9a9a!important;
+}
+.upsell .column-block .price-grid > li.title, .upsell .column-block .price-grid .button, .upsell .tabs-title:nth-child(1) a {
+    background-color: #9a9a9a!important;
+    color: white;
+}
+.upsell .column-block .price-grid:hover > li.title, .upsell .tabs-panel:nth-child(3) .price-grid:hover {
+    border-top: 3px solid #ee3124!important;
+}
+.upsell .column-block .price-grid:hover > li.title, .upsell .column-block .price-grid:hover .button, .upsell .tabs-title:nth-child(1) a {
+    background-color: #9a9a9a!important;
+    color: white;
+}
+
+.upsell .column-block .price-grid .button {
+    background-color: #9a9a9a0f!important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+.upsell .price-grid > li {
+    border-bottom: 1px solid #f7f7f7;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-weight: 400;
+    font-size: 12px;
+    color: #565656;
+    font-family: Roboto;
+}
+.upsell .additional-price, .upsell .price-grid .additional-price {
+    font-size: 14px;
+    margin-bottom: .2rem;
+    color: #ee3124;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.upsell .price-grid.active .additional-price .selected-text {
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+
+@media screen and (min-width: 40em){
+.upsell .column-block:nth-child(4) .price-grid > li:last-child {
+    border-bottom: 3px solid #3e3d3d;
+    }
+    .upsell .column-block:nth-child(3) .price-grid > li:last-child {
+    border-bottom: 3px solid #717171;
+    }
+    .upsell .column-block:nth-child(2) .price-grid > li:last-child {
+    border-bottom: 3px solid #9a9a9a;
+    }
+    .upsell .price-grid {
+    box-shadow: 0px 1px 3px #fff;
+    border-radius: 8px;
+    margin-bottom: 0;
+    margin-right: 1rem;
+    border: 1px solid #eee;
+}
+.upsell .column-block .price-grid:hover > li:last-child {
+    border-bottom: 3px solid #ee3124;
+}
+}
+
+
+
+
+/*Update 2 Upsalle*/
+
+/*.upsell .column-block:nth-child(2) .price-grid > li.title:before {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: 25px;
+    content: "";
+    -webkit-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+    background: #9a9a9a;
+    border: solid #e1e1e1;
+    border-width: 1px 1px 0;
+    display: block;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #9a9a9a;
+}*/
+.upsell .price-grid-categories > li {
+    padding: .5rem;
+    border-bottom: 1px solid #eee;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    color: #565656;
+    flex-direction: column;
+    text-align: right;
+}
+.upsell .cat-subtitle {
+    color: #aaa;
+    font-weight: 400;
+    padding: 0 7px;
+    text-transform: lowercase;
+    font-size: 11px;
+    line-height: 0.3;
+}
+
+.upsell .column-block .price-grid > li.title{
+position: relative;
+}
+
+.upsell .column-block {
+    margin-top: 42px;
+}
+
+.upsell .price-grid-categories > li {
+    padding: .5rem;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+    display: flex;
+    color: #3e3d3d;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    font-weight: 500;
+    font-family: roboto;
+}
+.upsell .price-grid-categories > li i {
+    position: absolute;
+    left: 0;
+}
+
+.fa-check:before {
+    content: "\f00c";
+    color: #3e3d3d;
+}
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\f00d";
+    color: #bdbdbd;
+}
+
+
+/*.upsell .price-grid:hover .title {
+    background-color: #ee3124!important;
+}*/
+/*.upsell .price-grid:hover .title:before {
+    content: "";
+    background: #ee3124!important;
+    border: 1px solid #ee3124!important;
+}*/
+.upsell .column-block .price-grid:hover .button {
+    background-color: #ee3124!important;
+    color: #fff!important;
+    border: 1px solid #ee3124!important;
+}
+
+/*.upsell .column-block:nth-child(3) .price-grid:hover > li.title:before{
+    position: absolute;
+    top: -20px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: 32px;
+    content: "";
+    -webkit-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+    background: #ee3124;
+    border: solid #ee3124;
+    border-width: 1px 1px 0;
+    display: block;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #ee3124;
+}*/
+
+.upsell .column-block:nth-child(4) .price-grid:hover > li.title, .upsell .tabs-panel:nth-child(3) .price-grid:hover {
+    border-top: 3px solid #ee3124;
+}
+.upsell .column-block:nth-child(3) .price-grid:hover > li.title, .upsell .tabs-panel:nth-child(2) .price-grid:hover{
+    border-top: 3px solid #ee3124;
+}
+.upsell .column-block:nth-child(2) .price-grid:hover > li.title, .upsell .tabs-panel:nth-child(5) .price-grid:hover {
+    border-top: 3px solid #ee3124;
+}
+
+.upsell .column-block .price-grid:hover > li.title{
+    background-color: #ee3124!important;
+}
+.upsell .column-block:nth-child(2) .price-grid:hover > li.title:before,
+.upsell .column-block:nth-child(4) .price-grid:hover > li.title:before{
+    border: 1px solid #ee3124;
+    background: #ee3124;
+    border: solid #ee3124;
+    content: "";
+}
+
+.tabs {
+    color: #fff;
+}
+.nts-limited-width .button {
+    background-color: #ee3124 !important;
+    color: #fff !important;
+}
+.upsell .price-grid:hover .fa-check:before {
+    content: "\f00c";
+    color: #30AE30;
+}
+.upsell .price-grid:hover .fa-remove:before, .upsell .price-grid:hover .fa-close:before, .upsell .price-grid:hover .fa-times:before {
+    content: "\f00d";
+    color: #ef3e32;
+}
+.upsell .price-grid-categories{
+    position: relative;
+}
+.upsell .accordion-title:hover{
+    background-color: #fefefe;
+}
+.upsell .selected-branded-fare.has-selected .action-change {
+    display: inline;
+    color: #ee3124;
+}
+.upsell .totalpackprice.small-text-center.price-extra.money.additional-price.selected {
+    color: #9a9a9a;
+}
+#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_liCC .medium-7 {
+    float: none;
+    text-align: left !important;
+}
+/*UPSALLE MOBILE*/
+
+@media screen and (min-width: 40em) {
+    .upsell .price-grid.active > li:last-child {
+        /* border-bottom: 3px solid #2199e8; */
+        border-bottom: 3px solid #ee3124;
+    }
+    .upsell .price-grid > li:last-child {
+        /* border-bottom: 3px solid #4caf50; */
+        border-bottom: 3px solid #ee3124;
+    }
+}
+@media screen and (max-width: 39.9375em){
+    .upsell .price-grid.active {
+        border-top: 3px solid #9a9a9a;
+    }
+    .upsell .price-grid > li:last-child a {
+        margin-bottom: 0.2rem;
+        margin-top: .8rem;
+        background-color: #4847471f!important;
+        color: #2f2f2f!important;
+        border: 1px solid #44444463;
+    }
+    .upsell .tabs.scrolling .tabs-title > a {
+        background-color: #ee3124;
+        color: #fff !important;
+    }
+}
+.upsell .tabs.scrolling {
+    color: #fff !important;
+}
+.upsell .tabs-title > a {
+    color: #fff !important;
+    background: #ee3124 !important;
+}
+.upsell .tabs .price-extra {
+    color: #fff;
+}
+.upsell .tabs-title.is-active a {
+    background-color: #ee3124!important;
+}
+@media screen and (max-width: 39.9375em){
+.upsell .price-grid.active {
+    border-top: 3px solid #ee3124!important;
+}
+.upsell .tabs-panel.is-active .price-grid{
+    border-top: 3px solid #ee3124!important;
+}
+}
+
+@media screen and (max-width: 39.9375em){
+.upsell .tabs-panel.is-active .price-grid > li:last-child a {
+    margin-bottom: 0.2rem;
+    margin-top: .8rem;
+    background-color: #ee3124!important;
+    color: #fff!important;
+    border: 1px solid #ee3124;
+}
+}
+.upsell .price-extra, .upsell .price-grid .price-extra {
+    font-size: 14px;
+}  
+.selected-text {
+    color: #000;
+
+}
+
+.upsell .column-block .price-grid > li.title, .upsell .column-block .price-grid .button, .upsell .tabs-title:nth-child(1) a {
+    background-color: #ee3124 !important;
+    color: #fff !important;
+}
+  
+  .upsell .column-block .price-grid > li.title, .upsell .tabs-panel:nth-child(3) .price-grid {
+    border-top: 3px solid #ee3124 !important;
+  }
+  
+  .upsell .additional-price, .upsell .price-grid .additional-price {
+    color: #000;
+  }
+  
+  .upsell .price-grid.active .additional-price .selected-text {
+    color: #000;
+  }
+  
+  .upsell .price-grid > li {
+    color: #000;
+  } 
+  
+  .upsell .price-grid li.title {
+    border-bottom: 1px solid #ee3124;
+  }
+
+  .accordion-content {
+    color: #000;
+  }
+
+.upsell .column-block .price-grid .button.selected {
+    background-color: transparent !important;
+    border: solid 1px #ee3124 !important;
+    color: #ee3124 !important;
+}
+input#txtHotelCode {
+    display: none;
+}

@@ -1,0 +1,557 @@
+z/* Small screens
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {}
+
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+
+/*Medium screens*/
+
+@media only screen and (min-width: 40.063em) {}
+
+
+/* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {}
+
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+
+/* Large screens*/
+
+@media only screen and (min-width: 64.063em) {}
+
+
+/* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {}
+
+
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+
+/*XLarge screens*/
+
+@media only screen and (min-width: 90.063em) {}
+
+
+/* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {}
+
+
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+
+/* XXLarge screens*/
+
+@media only screen and (min-width: 120.063em) {}
+
+
+/* min-width 1921px, xxlarge screens */
+
+#divDCAdditionalInfo {
+    width: 200px !important;
+}
+
+.discountRounded {
+    display: none !important;
+}
+
+body,
+th,
+td,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a:link,
+a:visited,
+a:hover,
+input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body #divLoading {
+    height: 100vh !important;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+}
+
+#divLoading #WpWrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#divLoading .wp {
+    margin-top: 0;
+}
+
+header {
+    background-color: #fff;
+    height: auto;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img#imgLogo {
+    margin-bottom: 0.5rem;
+}
+
+#top_header {}
+
+.mainMenu {
+    padding-top: 3rem;
+    width: auto;
+}
+
+header .menu-mobile {
+    background-color: #fff;
+}
+
+.mainMenu li {
+    float: left;
+    border-right: 1px solid #e7e7e7;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mainMenu li a {
+    color: #9E9E9E;
+    font-size: 1rem;
+}
+
+.mainMenu li a:hover {
+    color: #E30412;
+    text-decoration: none;
+}
+
+.mainMenu li:last-child {
+    border-right: none;
+}
+
+#telefonos {
+    line-height: 1.2rem;
+}
+
+#telefonos a {
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-mobile {
+    padding-top: 20px;
+}
+
+.mainMenuMobile li a {
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.mainMenuMobile li::before {
+    content: "";
+}
+
+.menuLogoWrapper {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.footerWrapper_top {
+    background-color: #000;
+    min-height: 20px;
+    padding: 30px 0px;
+}
+
+.footerWrapper_top h3 {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.footerWrapper_top ul {
+    list-style: outside disc;
+}
+
+.footerWrapper_top ul li {
+    color: #9E9E9E;
+    font-size: 13px;
+}
+
+a#facebook_footer {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background: url("https://images.netactica.net/ViajesExito/iconos_redes.png") 0px 0px no-repeat;
+    float: left;
+    margin-right: 7px;
+}
+
+a#facebook_footer:hover {
+    background-position: 0 -31px;
+}
+
+a#twitter_footer {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background: url("https://images.netactica.net/ViajesExito/iconos_redes.png") 0px -62px no-repeat;
+    float: left;
+    margin-right: 7px;
+}
+
+a#twitter_footer:hover {
+    background-position: 0 -93px;
+}
+
+a#instagram_footer {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background: url("https://images.netactica.net/ViajesExito/iconos_redes.png") 0px -124px no-repeat;
+    float: left;
+    margin-right: 7px;
+}
+
+a#instagram_footer:hover {
+    background-position: 0 -155px;
+}
+
+a#youtube_footer {
+    display: block;
+    width: 32px;
+    height: 30px;
+    text-indent: -9999px;
+    background: url("https://images.netactica.net/ViajesExito/iconos_redes.png") 0px -218px no-repeat;
+    float: left;
+}
+
+a#youtube_footer:hover {
+    background-position: 0 -187px;
+}
+
+.zona_logos_pie {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.footer_vex ul li a,
+.footer_info_interes ul li a,
+.footer_info_legal ul li a {
+    color: #9E9E9E;
+    font-weight: 600;
+}
+
+.tels_footer {
+    color: #fff;
+}
+
+@media only screen and (max-width: 40em) {
+    #top_header {
+        margin-bottom: 0;
+    }
+    .footer_vex,
+    .footer_info_interes {
+        background: none;
+    }
+    .mainMenu {
+        padding-top: 1.5rem;
+        width: auto;
+    }
+    .top-bar-title {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 40em) {
+    /*    .medium-12 {
+        padding-top: 1.5rem;
+    }*/
+    .mainMenu li {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+
+/* Customización de flujos */
+
+
+/*Titulo "Hoteles en... Vuelos a... Paquete a..." */
+
+.pkg-title {
+    color: #801815;
+}
+
+
+/*links en aereo */
+
+div#divAirResults a {
+    color: #e31f10;
+}
+
+div#divAirResults a:hover {
+    color: #801815;
+}
+
+.divAirMatrixContainer .slick-slide .nts-matrixItem a:hover,
+.nts-matrixTitle a:hover {
+    border: solid 1px #801815!important;
+}
+
+.nts-matrixTitle.stopCount a {
+    color: #000;
+}
+
+.nts-matrixTitle.stopCount a:hover {
+    color: #801815;
+}
+
+.nts-matrixItem.text-center a {
+    color: #e31f10;
+}
+
+.nts-matrixItem.text-center a:hover {
+    color: #801815;
+}
+
+
+/* calendario */
+
+a.ui-state-default.ui-state-active {
+    background: #e31f10;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    color: #000!important;
+}
+
+
+/* Tablet */
+
+button.button.hollow {
+    background: rgba(0, 0, 0, 0)!important;
+    color: #e31f10;
+    border-color: #e31f10;
+}
+
+div#offCanvasLeft a {
+    color: #e31f10;
+}
+
+div#offCanvasLeft a:hover {
+    color: #801815;
+}
+
+
+/*Nombre del hotel */
+
+span.hotelName a,
+.hotelNameDetails,
+span.nts-side-bar-title,
+.summaryTitle,
+.packagePriceTitle,
+.sectionTitle {
+    color: #801815;
+}
+
+
+/*Color del boton "seleccionar" + "continuar"*/
+
+.nts-button,
+input#submitButtonId {
+    background-color: #ee3124!important;
+}
+
+.nts-button:hover,
+input#submitButtonId:hover {
+    background-color: #801815!important;
+}
+
+
+/* Color de la moneda y el precio */
+
+.roomOptPrice .currencyCode,
+.roomOptPrice .currencyText,
+.hotelOption .currencyCode,
+.hotelOption .currencyText,
+.callout.cart-price p.priceTitle .currencyCode,
+.callout.cart-price p.priceTitle .currencyText {
+    color: #000;
+    font-weight: 600;
+}
+
+
+/* Color al tipo de habitación */
+
+label.roomOptDesc.fontNormal {
+    color: #003580;
+}
+
+
+/* Color al boton de busqueda */
+
+
+/*.button {
+    background-color: #ea0e6f!important;
+}*/
+
+#btnSendOTP {
+    background-color: #ea0e6f!important;
+    border-radius: 27px;
+    font-size: 0.9rem !important;
+    padding: 0.7rem 0.7rem 0.75rem !important;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #801815!important;
+}
+
+
+/* Color de fondo para la tabla */
+
+table thead th,
+table thead td,
+table tfoot th,
+table tfoot td {
+    background: #f4f4f4;
+}
+
+
+/* Color de fondo y tipografía para la paginación */
+
+.pagination .current {
+    background: #ededed!important;
+    color: #003580!important;
+}
+
+
+/* Color de fondo a la caja de precio */
+
+.callout.cart-price {
+    background: #fafafa;
+}
+
+
+/* Color de tipografía de menu detalle de Hotel */
+
+ul.menu.align-right li a {
+    color: #E31F10;
+}
+
+ul.menu.align-right li a:hover {
+    color: #801815;
+}
+
+
+/* Color de fondo a la caja comprar ahora Hotel + caja itinerario + seccion en la que estoy */
+
+.hotelDetailsBuyNow,
+.callout.packagePrice {
+    background: #ffd700!important;
+}
+
+
+/* Pasos de compra */
+
+.includes-item.active .step {
+    background: #E31F10!important;
+}
+
+.includes-item.active {
+    background: #ffd700!important;
+    border-bottom: 2px solid #E31F10!important;
+}
+
+#divSteps .step {
+    font-size: 1em!important;
+}
+
+.includes-item.active span {
+    color: #801815;
+}
+
+.includes-item {
+    background: none repeat scroll 0 0 #ddd;
+}
+
+.includes-item span {
+    color: #9b9b9b;
+}
+
+
+/* Color de precio */
+
+.callout.hotelPriceColumn .totalpackprice,
+.callout.airPriceColumn .totalpackprice {
+    color: #801815!important;
+    font-weight: 700;
+}
+
+
+/* Color filtros + ver más*/
+
+a#aShowHideAdvanced,
+.right span,
+div#divAirFilters a,
+.callout.secondary a,
+.nts-view-more-fade a,
+.callout.passenger.nts-form-compact a,
+.callout.summaryItem a,
+.large-12.column.back {
+    color: #E31F10;
+}
+
+a#aShowHideAdvanced:hover,
+.right span:hover,
+div#divAirFilters a:hover .callout.secondary a:hover,
+.nts-view-more-fade a:hover,
+.callout.passenger.nts-form-compact a:hover,
+.callout.summaryItem a:hover,
+.large-12.column.back:hover {
+    color: #801815;
+}
+
+.slider-handle {
+    background: #E31F10!important;
+}
+
+.slider-handle:hover {
+    background: #801815!important;
+}
+
+span.fi-pencil {
+    color: #E31F10!important;
+}
+
+span.fi-pencil:hover {
+    color: #801815!important;
+}
+
+span.filterTitle {
+    font-size: .9rem!important;
+}
+
+#divPassengers > .callout.passenger:nth-child(odd) {
+    display: block;
+}

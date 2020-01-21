@@ -1,0 +1,29 @@
+ul.menu.align-right {
+    padding-top: 0;
+}
+
+.callout.nts-card span.hotelNameDetails {
+    display: block;
+    margin-bottom: 6px;
+}
+
+a {
+    color: #2f2f2f !important;
+    /* color: red; */
+}
+
+span img[src="/Images/icon-Star.png"] {
+    margin-bottom: 8px;
+}
+
+div#divTitle .large-6.column.text-right.small-text-left a,
+.callout.cart-price a.button {
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 40em) {
+    .hotelDetailsRightSide {
+        border-left: none;
+        padding: 0 !important;
+    }
+}
