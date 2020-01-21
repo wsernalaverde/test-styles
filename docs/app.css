@@ -304,7 +304,7 @@ a#youtube_footer:hover {
 /*links en aereo */
 
 div#divAirResults a {
-    color: #e31f10;
+    color: #EA1A27;
 }
 
 div#divAirResults a:hover {
@@ -325,7 +325,7 @@ div#divAirResults a:hover {
 }
 
 .nts-matrixItem.text-center a {
-    color: #e31f10;
+    color: #EA1A27;
 }
 
 .nts-matrixItem.text-center a:hover {
@@ -336,7 +336,7 @@ div#divAirResults a:hover {
 /* calendario */
 
 a.ui-state-default.ui-state-active {
-    background: #e31f10;
+    background: #EA1A27;
 }
 
 .ui-state-default,
@@ -350,12 +350,12 @@ a.ui-state-default.ui-state-active {
 
 button.button.hollow {
     background: rgba(0, 0, 0, 0)!important;
-    color: #e31f10;
-    border-color: #e31f10;
+    color: #EA1A27;
+    border-color: #EA1A27;
 }
 
 div#offCanvasLeft a {
-    color: #e31f10;
+    color: #EA1A27;
 }
 
 div#offCanvasLeft a:hover {
@@ -456,7 +456,7 @@ table tfoot td {
 /* Color de tipografía de menu detalle de Hotel */
 
 ul.menu.align-right li a {
-    color: #E31F10;
+    color: #EA1A27;
 }
 
 ul.menu.align-right li a:hover {
@@ -475,12 +475,12 @@ ul.menu.align-right li a:hover {
 /* Pasos de compra */
 
 .includes-item.active .step {
-    background: #E31F10!important;
+    background: #EA1A27!important;
 }
 
 .includes-item.active {
     background: #ffd700!important;
-    border-bottom: 2px solid #E31F10!important;
+    border-bottom: 2px solid #EA1A27!important;
 }
 
 #divSteps .step {
@@ -519,7 +519,7 @@ div#divAirFilters a,
 .callout.passenger.nts-form-compact a,
 .callout.summaryItem a,
 .large-12.column.back {
-    color: #E31F10;
+    color: #EA1A27;
 }
 
 a#aShowHideAdvanced:hover,
@@ -533,7 +533,7 @@ div#divAirFilters a:hover .callout.secondary a:hover,
 }
 
 .slider-handle {
-    background: #E31F10!important;
+    background: #EA1A27!important;
 }
 
 .slider-handle:hover {
@@ -541,7 +541,7 @@ div#divAirFilters a:hover .callout.secondary a:hover,
 }
 
 span.fi-pencil {
-    color: #E31F10!important;
+    color: #EA1A27!important;
 }
 
 span.fi-pencil:hover {

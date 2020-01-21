@@ -773,6 +773,7 @@ select#ddlInfants {
 
 .callout.secondary.filter .slider-fill {
     height: 0.3rem;
+    background-color: #EA1A27 !important;
 }
 
 .callout.secondary.filter .filter-airPriceRanges {
