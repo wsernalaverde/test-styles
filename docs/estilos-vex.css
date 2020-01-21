@@ -733,7 +733,12 @@ select#ddlInfants {
 }
 
 .callout.secondary.filter .slider-handle {
-    border-radius: 30%;
+    border-radius: 50%;
+}
+
+.slider-handle {
+    width: 1.3rem !important;
+    height: 1.3rem !important;
 }
 
 .slider span.slider-handle:before {
@@ -748,12 +753,12 @@ select#ddlInfants {
 }
 
 .slider span:nth-child(1):before {
-    content: "-";
+    content: "";
     top: -1px;
 }
 
 .slider span:nth-child(3):before {
-    content: "-";
+    content: "";
 }
 
 .callout.secondary.filter a {
