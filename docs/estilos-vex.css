@@ -604,7 +604,7 @@ div#divRightColumn {
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.05);
 }
 
-.large-6 .nts-callout-primary input[type=text] {
+.large-6 input[type=text] {
     width: 90%;
 }
 
