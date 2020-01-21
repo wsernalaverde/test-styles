@@ -598,10 +598,14 @@ div#divRightColumn {
 .textPriceRange {
     background: #f9f9f9;
     border-radius: 6px;
-    border: 1px solid #e0e0e0;
-    box-shadow: none;
-    color: #2f2f2f;
+    border: 0px solid #e0e0e0;
+    color: #b3b3b3;
     font-family: 'Roboto', sans-serif;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.05);
+}
+
+.nts-callout-primary input[type=text] .large-6 {
+    width: 90%;
 }
 
 input#txtHotelContains {
@@ -651,8 +655,8 @@ select#ddlAge11,
 select#ddlAge12,
 select#ddlAge13,
 select#ddlAge14 {
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    border: 0px solid #e0e0e0;
     border-radius: 6px;
     color: #2f2f2f;
     background-image: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.ï¿½nts='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>);
@@ -661,6 +665,32 @@ select#ddlAge14 {
     background-repeat: no-repeat;
     background-size: 9px 6px;
     font-family: 'Roboto', sans-serif;
+    color: #b3b3b3;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.05);
+}
+
+select#ddlAdults .large-6,
+select#ddlChilds .large-6,
+select#ddlInfants .large-6,
+select#ddlCabinType .large-6,
+select#ddlDepartureTime .large-6,
+select#ddlArrivalTime .large-6,
+select#ddlRoomsCount .large-6,
+select#ddlAdults1 .large-6,
+select#ddlChilds1 .large-6,
+select#ddlAdults2 .large-6,
+select#ddlChilds2 .large-6,
+select#ddlAdults3 .large-6,
+select#ddlChilds3 .large-6,
+select#ddlAdults4 .large-6,
+select#ddlChilds4 .large-6,
+select#ddlAdults5 .large-6,
+select#ddlChilds5 .large-6,
+select#ddlAge11 .large-6,
+select#ddlAge12 .large-6,
+select#ddlAge13 .large-6,
+select#ddlAge14 .large-6 {
+    width: 90%;
 }
 
 #ulNewSearch label.text-left {
