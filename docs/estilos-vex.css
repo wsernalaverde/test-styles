@@ -3029,6 +3029,7 @@ p.selectedRoomsInfo.small.text-justify.secondary {
     margin-bottom: 1rem;
     margin-top: 0.2rem;
     font-size: 12px;
+    display: none;
 }
 
 
