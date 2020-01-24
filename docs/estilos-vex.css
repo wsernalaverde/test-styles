@@ -3032,14 +3032,35 @@ p.selectedRoomsInfo.small.text-justify.secondary {
 }
 
 /*Mensaje de Advertencia*/
+.callout.warning {
+    background-color: #ED1C290D;
+    border: 1px solid #ED1C29;
+    color: #000000;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.callout.warning .row{
+    display: flex;
+}
+.callout.warning.warningMessage .small-1 {
+    background-color: #ED1C29;
+}
 .warningMessage dt {
-    color: #474747;
+    color: #000000;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 500;
     height: 62px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.dl {
+    margin: 0;
+}
+.warningMessage dd {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
 }
 .warningMessage .fi-alert{
     font-size: 4em!important;
