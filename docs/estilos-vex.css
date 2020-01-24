@@ -1460,10 +1460,10 @@ div#ulSteps.small-up-3 .column:nth-child(3) .includes-item.active a div:nth-chil
 }
 
 .route-line:after {
-    border-left: 11px solid #2f2f2f;
-    right: -6px !important;
+    right: -16px !important;
     top: -6px !important;
-    border: 10px solid #0000 !important;
+    border: 10px solid #0000;
+    border-left: 11px solid #2f2f2f;
 }
 
 .show-for-medium.date {
@@ -1778,10 +1778,19 @@ ul.menu.align-right li:before {
     border-radius: 6px;
 }
 
+.jpagination a {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 6px #00000012;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
 .jpagination .jp-current {
-    background: #fff !important;
-    border: 1px solid #2f2f2f;
-    color: #2f2f2f !important;
+    background: #EA1A27 !important;
+    border: 1px solid #EA1A27;
+    box-shadow: 3px 3px 6px #00000012;
+    border-radius: 6px;
+    color: white !important;
 }
 
 .hotelDetailsBuyNow {
@@ -3456,4 +3465,14 @@ position: relative;
 }
 input#txtHotelCode {
     display: none;
+}
+#divQuoteItems {
+    width: 370px !important;
+}
+#divQuoteItems div.footer {
+    background-color: #ED1C29;
+    border: 1px solid #ED1C29;
+}
+#divQuoteItems div.footer a {
+    color: white !important;
 }
