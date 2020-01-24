@@ -423,6 +423,7 @@ a:focus {
 
 .button {
     background-color: #ee3124;
+    border-radius: 6px;
 }
 
 .button:hover {
@@ -3113,6 +3114,17 @@ p.selectedRoomsInfo.small.text-justify.secondary {
 
 
 /*UPSALLE*/
+.upsell .intercom {
+    font-weight: 500;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid #eee;
+}
+
+.upsell .page-title + p {
+    color: #000;
+    font-size: 14px;
+}
+
 .upsell .callout.packagePrice {
     border: none;
     padding: 0;
@@ -3185,9 +3197,8 @@ p.selectedRoomsInfo.small.text-justify.secondary {
     color: #fff !important;
 }
 .upsell .price-grid > li {
-    border-bottom: 1px solid #f7f7f7;
     background: #fff;
-    border-bottom: 1px solid #eee;
+    border-bottom: 0px solid #eee !important;
     font-weight: 400;
     font-size: 12px;
     color: #565656;
@@ -3208,13 +3219,13 @@ p.selectedRoomsInfo.small.text-justify.secondary {
 
 @media screen and (min-width: 40em){
 .upsell .column-block:nth-child(4) .price-grid > li:last-child {
-    border-bottom: 3px solid #3e3d3d;
+    border-bottom: 0px solid #3e3d3d;
     }
     .upsell .column-block:nth-child(3) .price-grid > li:last-child {
-    border-bottom: 3px solid #717171;
+    border-bottom: 0px solid #717171;
     }
     .upsell .column-block:nth-child(2) .price-grid > li:last-child {
-    border-bottom: 3px solid #9a9a9a;
+    border-bottom:  0px solid #9a9a9a;
     }
     .upsell .price-grid {
     box-shadow: 0px 1px 3px #fff;
@@ -3224,7 +3235,7 @@ p.selectedRoomsInfo.small.text-justify.secondary {
     border: 1px solid #eee;
 }
 .upsell .column-block .price-grid:hover > li:last-child {
-    border-bottom: 3px solid #ee3124;
+    border-bottom: 0px solid #ee3124;
 }
 }
 
@@ -3278,16 +3289,17 @@ position: relative;
 }
 
 .upsell .price-grid-categories > li {
-    padding: .5rem;
+    padding: 1.2rem .5rem;
     border-bottom: 1px solid #eee;
     font-size: 12px;
     display: flex;
     color: #3e3d3d;
     flex-direction: column;
-    text-align: right;
-    align-items: flex-end;
+    text-align: left;
+    align-items: flex-start;
     font-weight: 500;
     font-family: roboto;
+    justify-content: center;
 }
 .upsell .price-grid-categories > li i {
     position: absolute;
@@ -3394,11 +3406,11 @@ position: relative;
 @media screen and (min-width: 40em) {
     .upsell .price-grid.active > li:last-child {
         /* border-bottom: 3px solid #2199e8; */
-        border-bottom: 3px solid #ee3124;
+        border-bottom: 0px solid #ee3124;
     }
     .upsell .price-grid > li:last-child {
         /* border-bottom: 3px solid #4caf50; */
-        border-bottom: 3px solid #ee3124;
+        border-bottom: 0px solid #ee3124;
     }
 }
 @media screen and (max-width: 39.9375em){
