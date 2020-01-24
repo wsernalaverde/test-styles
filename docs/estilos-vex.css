@@ -427,7 +427,7 @@ a:focus {
 }
 
 .button:hover {
-    background-color: #2f2f2f;
+    background-color: #801815!important;
 }
 
 .button.nts-button.small.expanded {
@@ -1826,11 +1826,6 @@ ul.menu.align-right {
 .hotelDetailsBuyNow .currencyCode,
 .hotelDetailsBuyNow .currencyText {
     color: #2f2f2f !important;
-}
-
-.button {
-    background-color: #2f2f2f !important;
-    border-radius: 15px;
 }
 
 .hotelNameDetails,
