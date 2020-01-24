@@ -564,13 +564,14 @@ div#divRightColumn {
 }
 
 #ulNewSearch input.button.expanded.round.small {
-    background: #ee3124 !important;
-    border-radius: 19px;
-    border: 1px solid #ee3124;
+    background: #ED1C29 !important;
+    border: 1px solid #ED1C29;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 6px #00000029;
+    border-radius: 6px;
 }
 
 .nts-button.alternate {
@@ -1454,11 +1455,15 @@ div#ulSteps.small-up-3 .column:nth-child(3) .includes-item.active a div:nth-chil
 }
 
 .route-line {
-    background: #848484;
+    background: #2f2f2f;
+    height: 0.43rem !important;
 }
 
 .route-line:after {
-    border-left: 8px solid #848484;
+    border-left: 11px solid #2f2f2f;
+    right: -6px !important;
+    top: -6px !important;
+    border: 10px solid #0000 !important;
 }
 
 .show-for-medium.date {
@@ -1468,7 +1473,7 @@ div#ulSteps.small-up-3 .column:nth-child(3) .includes-item.active a div:nth-chil
 }
 
 .airOptionInfo .city-code {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .airOptionInfo .city-name {
@@ -1565,11 +1570,13 @@ div#ulSteps.small-up-3 .column:nth-child(3) .includes-item.active a div:nth-chil
 .callout.hotelPriceColumn .button,
 .callout.airPriceColumn .button,
 .callout.carPriceColumn .button {
-    background-color: #ee3124 !important;
-    border-radius: 15px;
-    border: 1px solid #ee3124;
+    background-color: #ED1C29 !important;
+    border-radius: 6px;
+    border: 1px solid #ED1C29;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    box-shadow: 3px 3px 6px #00000029;
+    font-size: 14px;
 }
 
 .callout.hotelPriceColumn .text-right,

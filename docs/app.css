@@ -304,7 +304,7 @@ a#youtube_footer:hover {
 /*links en aereo */
 
 div#divAirResults a {
-    color: #EA1A27;
+    color: #EA1A27 !important;
 }
 
 div#divAirResults a:hover {
