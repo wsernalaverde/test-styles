@@ -3038,12 +3038,17 @@ p.selectedRoomsInfo.small.text-justify.secondary {
     color: #000000;
     padding-top: 0;
     padding-bottom: 0;
+    border-radius: 6px;
 }
 .callout.warning .row{
     display: flex;
 }
 .callout.warning.warningMessage .small-1 {
     background-color: #ED1C29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1px;
 }
 .warningMessage dt {
     color: #000000;
@@ -3064,6 +3069,7 @@ p.selectedRoomsInfo.small.text-justify.secondary {
 }
 .warningMessage .fi-alert{
     font-size: 4em!important;
+    color: white !important;
 }
 .hotelThumb[src^="/Images/hotel-image-placeholder.jpg"] {
     display: block;
