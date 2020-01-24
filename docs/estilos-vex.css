@@ -2250,6 +2250,10 @@ div.divExtraProducts .column .row.collapse .column.medium-8.large-9 div img {
     display: block;
 }
 
+.nts-form-compact .row.collapse>.column {
+    padding: 0 7px 0 0;
+}
+
 /*  acumulacion de millas  */
 .callout.passenger {
     background-color: #fff;
@@ -2270,7 +2274,7 @@ div.divExtraProducts .column .row.collapse .column.medium-8.large-9 div img {
 .passenger [type='email'],
 .passenger [type='number'],
 .passenger [type='tel'] {
-    background: #f9f9f9;
+    background: #fff;
     border: 1px solid #e0e0e0;
     box-shadow: none;
     border-radius: 6px;
@@ -2287,7 +2291,7 @@ div.divExtraProducts .column .row.collapse .column.medium-8.large-9 div img {
 }
 
 .passenger select {
-    background-color: #f9f9f9;
+    background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 6px;
     color: #2f2f2f;
