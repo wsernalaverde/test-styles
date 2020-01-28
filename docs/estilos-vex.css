@@ -2378,7 +2378,7 @@ div#divTermsAndConditionsText a {
     color: #6979F8 !important;
 }
 
-#packSummary .PCO-label {
+#packSummary .PCO-label, #packSummary .PCO-info small {
     display: none;
 }
 
