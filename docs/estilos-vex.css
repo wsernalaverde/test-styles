@@ -3548,7 +3548,7 @@ input#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
-.divPaymentButtons .button {
+.nts-form .divPaymentButtons .button {
     background-color: #ED1C29 !important;
     border-radius: 6px!important;
     font-weight: 100;
