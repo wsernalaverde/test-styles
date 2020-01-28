@@ -2375,7 +2375,7 @@ div#divTermsAndConditionsText a {
 }
 
 .summary a.fontSmall {
-    color: #2f2f2f !important;
+    color: #6979F8 !important;
 }
 
 #packSummary .PCO-label {
@@ -2472,6 +2472,10 @@ div#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_pnlRe
 .position-left.is-transition-push::after {
     box-shadow: none;
     border-right: 2px solid #e0e0e0;
+}
+
+.callout.nts-form-compact select, .callout.nts-form-compact [type='text'], .callout.nts-form-compact [type='password'], .callout.nts-form-compact [type='date'], .callout.nts-form-compact [type='datetime'], .callout.nts-form-compact [type='datetime-local'], .callout.nts-form-compact [type='month'], .callout.nts-form-compact [type='week'], .callout.nts-form-compact [type='email'], .callout.nts-form-compact [type='number'], .callout.nts-form-compact [type='search'], .callout.nts-form-compact [type='tel'], .callout.nts-form-compact [type='time'], .callout.nts-form-compact [type='url'], .callout.nts-form-compact [type='color'], .callout.nts-form-compact textarea {
+    color: #B7B7B7 !important;
 }
 
 @media screen and (max-width:639px) {
@@ -3521,4 +3525,35 @@ input#txtHotelCode {
 }
 #divQuoteItems div.footer a {
     color: white !important;
+}
+
+.nts-form input[type="text"], .nts-form textarea, .nts-form input[type="password"], .nts-form select, .HotelFareBlock input[type="text"], .HotelFareBlock textarea, .HotelFareBlock input[type="password"], .HotelFareBlock select {
+    background-color: #fff !important;
+}
+
+select#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_shopperPaymentInfoControl_ddlDocType, 
+select#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_ddlCardExpireMonth, 
+select#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_ddlDocTypePayULatam, 
+input#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_shopperPaymentInfoControl_txtFirstName,
+input#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_txtShopperFirstName,
+input#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_ddlDocTypeP2P {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+input#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_txtDocNumberP2P, 
+input#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_txtShopperLastName {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.divPaymentButtons .button {
+    background-color: #ED1C29 !important;
+    border-radius: 6px!important;
+    font-weight: 100;
+}
+select#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_ddlDocTypeP2P, 
+select#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_shopperPaymentInfoControl_ddlDocType {
+    font-size: 11px;
+}
+#divP2PInfoControl .row img {
+    max-width: 200px;
 }
