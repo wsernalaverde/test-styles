@@ -3527,7 +3527,10 @@ input#txtHotelCode {
     color: white !important;
 }
 
-.nts-form input[type="text"], .nts-form textarea, .nts-form input[type="password"], .nts-form select, .HotelFareBlock input[type="text"], .HotelFareBlock textarea, .HotelFareBlock input[type="password"], .HotelFareBlock select {
+body .nts-form input[type="text"], body .nts-form textarea, 
+body .nts-form input[type="password"], body .nts-form select, 
+body .HotelFareBlock input[type="text"], body .HotelFareBlock textarea, 
+body .HotelFareBlock input[type="password"], body .HotelFareBlock select {
     background-color: #fff !important;
 }
 
@@ -3536,7 +3539,7 @@ select#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ct
 select#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_ddlDocTypePayULatam, 
 input#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_shopperPaymentInfoControl_txtFirstName,
 input#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_txtShopperFirstName,
-input#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_ddlDocTypeP2P {
+select#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl01_ddlDocTypeP2P {
     border-top-right-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
 }
