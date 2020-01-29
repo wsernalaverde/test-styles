@@ -3419,7 +3419,10 @@ position: relative;
     width: 100%;
 }
 #ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl03_lblReferenceDetail a {
-    color: #6979F8;
+    color: #6979F8 !important;
+}
+span#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_lblDCTitle {
+    font-size: .98rem !important;
 }
 /*UPSALLE MOBILE*/
 
