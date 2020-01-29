@@ -600,10 +600,10 @@ div#divRightColumn {
 .textPriceRange {
     background: #fff;
     border-radius: 6px;
-    border: 0px solid #e0e0e0;
-    color: #b3b3b3;
+    border: 1px solid #e0e0e0;
+    color: #4a4a4a;
     font-family: 'Roboto', sans-serif;
-    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.05); */
 }
 
 .large-6 input[type=text] {
