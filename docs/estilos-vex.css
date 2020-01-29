@@ -2386,6 +2386,10 @@ div#divTermsAndConditionsText a {
     padding: 30px
 }
 
+#packSummary .PCO-info p{
+    font-size: 11px;
+}
+
 #packSummary .summary {
     background: #fff;
     border: 1px solid #e0e0e0;
