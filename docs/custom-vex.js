@@ -10,7 +10,7 @@ $(document).ready(() => {
         let spanTarjeta = document.querySelector('.CFTInfo #ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_lblCCTitle')
         if (spanTarjeta) spanTarjeta.innerHTML = 'TARJETA ÉXITO o CARULLA - MÁSTER CARD <br> <a href="https://www.tuya.com.co/tarjetas" target="_blank" style="color: #6979F8 !important;font-size: 13px;margin-left: 25px;">¿Aún no la tienes? Adquiérela aquí</a>'
 
-        let spanTarjeta = document.querySelector('.divCFTInfo #ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_lblCCTitle')
-        if (spanTarjeta) spanTarjeta.innerHTML = 'TARJETA ÉXITO o CARULLA - MÁSTER CARD'
+        let spanTarjetaDown = document.querySelector('.divCFTInfo #ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_lblCCTitle')
+        if (spanTarjetaDown) spanTarjetaDown.innerHTML = 'TARJETA ÉXITO o CARULLA - MÁSTER CARD'
     }, 3000)
 })
