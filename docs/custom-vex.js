@@ -12,5 +12,8 @@ $(document).ready(() => {
 
         let spanTarjetaDown = document.querySelector('.divCFTInfo #ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_lblCCTitle')
         if (spanTarjetaDown) spanTarjetaDown.innerHTML = 'TARJETA ÉXITO o CARULLA - MÁSTER CARD'
+
+        let imgTarjetaPv = document.querySelector('#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_liDC .small-5')
+        if (imgTarjetaPv) imgTarjetaPv.innerHTML = '<img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_exito_pv.jpg" style="height: 1.6rem">'
     }, 3000)
 })
