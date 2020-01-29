@@ -18,5 +18,5 @@ $(document).ready(() => {
 
         let imgTarjetaEC = document.querySelector('#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_liCC .medium-5')
         if (imgTarjetaEC) imgTarjetaEC.innerHTML = '<img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_exito_pro.jpg" style="height: 1.3rem;margin-right: 5px;"><img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_exito_gold.jpg" style="height: 1.3rem;margin-right: 5px;"><img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_carulla_gold.jpg" style="height: 1.3rem;margin-right: 5px;"><img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_carulla_black.jpg" style="height: 1.6rem">'
-    }, 3000)
+    }, 2000)
 })
