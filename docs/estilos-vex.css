@@ -3416,6 +3416,10 @@ position: relative;
 #ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_liCC .medium-7 {
     float: none;
     text-align: left !important;
+    width: 100%;
+}
+#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_ctl03_lblReferenceDetail a {
+    color: #6979F8;
 }
 /*UPSALLE MOBILE*/
 
