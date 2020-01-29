@@ -2480,7 +2480,7 @@ div#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_pnlRe
 }
 
 .callout.nts-form-compact select, .callout.nts-form-compact [type='text'], .callout.nts-form-compact [type='password'], .callout.nts-form-compact [type='date'], .callout.nts-form-compact [type='datetime'], .callout.nts-form-compact [type='datetime-local'], .callout.nts-form-compact [type='month'], .callout.nts-form-compact [type='week'], .callout.nts-form-compact [type='email'], .callout.nts-form-compact [type='number'], .callout.nts-form-compact [type='search'], .callout.nts-form-compact [type='tel'], .callout.nts-form-compact [type='time'], .callout.nts-form-compact [type='url'], .callout.nts-form-compact [type='color'], .callout.nts-form-compact textarea {
-    color: #B7B7B7 !important;
+    color: #4a4a4a !important;
 }
 
 @media screen and (max-width:639px) {
