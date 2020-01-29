@@ -17,6 +17,6 @@ $(document).ready(() => {
         if (imgTarjetaPv) imgTarjetaPv.innerHTML = '<img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_exito_pv.jpg" style="height: 1.3rem">'
 
         let imgTarjetaEC = document.querySelector('#ctl00_ctl00_NetSiteContentPlaceHolder_NetFulfillmentContentPlaceHolder_liCC .medium-5')
-        if (imgTarjetaEC) imgTarjetaEC.innerHTML = '<img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_exito_pro.jpg" style="height: 1.3rem;margin-right: 5px;"><img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_exito_gold.jpg" style="height: 1.3rem;margin-right: 5px;"><img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_carulla_gold.jpg" style="height: 1.3rem;margin-right: 5px;"><img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_carulla_black.jpg" style="height: 1.6rem">'
+        if (imgTarjetaEC) imgTarjetaEC.innerHTML = '<img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_exito_pro.jpg" style="height: 1.3rem;margin-right: 5px;"><img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_exito_gold.jpg" style="height: 1.3rem;margin-right: 5px;"><img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_carulla_gold.jpg" style="height: 1.3rem;margin-right: 5px;"><img src="https://www.tuya.com.co/sites/default/files/tarjetas/tarjeta_carulla_black.jpg" style="height: 1.3rem">'
     }, 2000)
 })
