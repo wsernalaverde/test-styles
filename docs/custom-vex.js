@@ -2,7 +2,7 @@ $(document).ready(() => {
     console.log( 'ready!' )
     setTimeout(() => {
         let containerPoints = document.querySelector('.PCO-info')
-        if (containerPoints) containerPoints.innerHTML = '<p>Recuerda que por haber hecho esta compra con Tarjeta Tuya Mastercard podrás disfrutar de <strong>tres Puntos Colombia adicionales por cada $1.000</strong>, que se verán reflejados en ocho días.</p>'
+        if (containerPoints) containerPoints.innerHTML = '<p>Recuerda que por haber hecho esta compra con Tarjetas Mastercard Éxito y Carulla podrás disfrutar de <strong>tres Puntos Colombia adicionales por cada $1.000</strong>, que se verán reflejados en ocho días.</p>'
     }, 5000)
 
     setTimeout(() => {        
