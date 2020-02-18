@@ -2,7 +2,7 @@ $(document).ready(() => {
     console.log( 'ready!' )
     setTimeout(() => {
         let containerPoints = document.querySelector('.PCO-info')
-        if (containerPoints) containerPoints.innerHTML = '<p><strong>Tu Triple Puntaje</strong> se verá reflejado a los 3 días después de tu compra y te llegará al correo electrónico.</p>'
+        if (containerPoints) containerPoints.innerHTML = '<p>Recuerda que por haber hecho esta compra con Tarjeta Tuya Mastercard podrás disfrutar de <strong>tres Puntos Colombia adicionales por cada $1.000</strong>, que se verán reflejados en ocho días.</p>'
     }, 5000)
 
     setTimeout(() => {        
